@@ -1,0 +1,511 @@
+2018-10-30 18:03:39.829 INFO  (main) [   ] o.e.j.u.log Logging initialized @416ms
+2018-10-30 18:03:40.056 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2018-10-30 18:03:40.068 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2018-10-30 18:03:40.070 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Jate/solr-5.3.0/server/contexts/] at interval 0
+2018-10-30 18:03:40.918 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-10-30 18:03:40.926 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@31ef45e3{/solr,file:/C:/Jate/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{C:\Jate\solr-5.3.0\server/solr-webapp/webapp} has uncovered http methods for path: /
+2018-10-30 18:03:40.932 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1845904670@6e06451e
+2018-10-30 18:03:40.943 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-10-30 18:03:40.943 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\\Jate\\solr-5.3.0\\server\\solr
+2018-10-30 18:03:40.945 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\\Jate\\solr-5.3.0\\server\\solr\'
+2018-10-30 18:03:41.098 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Jate\solr-5.3.0\server\solr\solr.xml
+2018-10-30 18:03:41.169 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Jate\solr-5.3.0\server\solr
+2018-10-30 18:03:41.192 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1881561036
+2018-10-30 18:03:41.193 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\\Jate\\solr-5.3.0\\server\\solr\]
+2018-10-30 18:03:41.193 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Jate\solr-5.3.0\server\solr\lib
+2018-10-30 18:03:41.193 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Jate\solr-5.3.0\server\solr\lib).
+2018-10-30 18:03:41.209 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2018-10-30 18:03:41.598 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2018-10-30 18:03:41.600 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2018-10-30 18:03:41.601 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2018-10-30 18:03:41.603 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2018-10-30 18:03:41.603 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2018-10-30 18:03:41.640 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Jate\solr-5.3.0\server\solr
+2018-10-30 18:03:41.678 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=jateCore, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Jate\solr-5.3.0\server\solr\jateCore, absoluteInstDir=C:\Jate\solr-5.3.0\server\solr\jateCore\, dataDir=data\}
+2018-10-30 18:03:41.679 INFO  (main) [   ] o.a.s.c.CoresLocator Found core jateCore in C:\Jate\solr-5.3.0\server\solr\jateCore\
+2018-10-30 18:03:41.680 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=jateSpanish, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Jate\solr-5.3.0\server\solr\jateSpanish, absoluteInstDir=C:\Jate\solr-5.3.0\server\solr\jateSpanish\, dataDir=data\}
+2018-10-30 18:03:41.680 INFO  (main) [   ] o.a.s.c.CoresLocator Found core jateSpanish in C:\Jate\solr-5.3.0\server\solr\jateSpanish\
+2018-10-30 18:03:41.680 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+2018-10-30 18:03:41.685 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Jate\solr-5.3.0\server
+2018-10-30 18:03:41.686 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2018-10-30 18:03:41.686 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Jate\solr-5.3.0\server\solr\jateCore\'
+2018-10-30 18:03:41.686 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Jate\solr-5.3.0\server\solr\jateSpanish\'
+2018-10-30 18:03:41.727 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@31ef45e3{/solr,file:/C:/Jate/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Jate\solr-5.3.0\server/solr-webapp/webapp}
+2018-10-30 18:03:41.789 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@4526d63b{HTTP/1.1}{0.0.0.0:8983}
+2018-10-30 18:03:41.789 INFO  (main) [   ] o.e.j.s.Server Started @2378ms
+2018-10-30 18:03:41.797 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2018-10-30 18:03:41.797 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2018-10-30 18:03:41.802 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2018-10-30 18:03:41.802 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2018-10-30 18:03:41.803 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Jate/solr-5.3.0/contrib/jate/lib/jate-2.0-beta.1-jar-with-dependencies.jar' to classloader
+2018-10-30 18:03:41.806 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Jate/solr-5.3.0/contrib/jate/lib/jate-2.0-beta.1-jar-with-dependencies.jar' to classloader
+2018-10-30 18:03:41.885 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-10-30 18:03:41.888 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-10-30 18:03:41.891 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 4.10.4
+2018-10-30 18:03:41.893 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 4.10.4
+2018-10-30 18:03:42.044 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2018-10-30 18:03:42.044 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2018-10-30 18:03:42.052 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Jate\solr-5.3.0\server\solr\jateCore\conf\schema.xml
+2018-10-30 18:03:42.066 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Jate\solr-5.3.0\server\solr\jateSpanish\conf\schema.xml
+2018-10-30 18:03:42.087 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [jateCore] Schema name=jate
+2018-10-30 18:03:42.112 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [jateSpanish] Schema name=jate
+2018-10-30 18:03:42.396 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=57 
+2018-10-30 18:03:42.434 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2018-10-30 18:03:42.434 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2018-10-30 18:03:42.453 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema unique key field: id
+2018-10-30 18:03:42.474 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2018-10-30 18:03:42.476 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2018-10-30 18:03:42.480 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2018-10-30 18:03:42.849 ERROR (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Error creating core [jateSpanish]: Could not load conf for core jateSpanish: Initiating org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory failed due to:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at uk.ac.shef.dcs.jate.nlp.InstanceCreator.createPOSTagger(InstanceCreator.java:28)
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory.inform(OpenNLPPOSTaggerFactory.java:40)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at opennlp.tools.util.model.BaseModel.getManifestProperty(BaseModel.java:524)
+	at opennlp.tools.util.model.BaseModel.initializeFactory(BaseModel.java:262)
+	at opennlp.tools.util.model.BaseModel.loadModel(BaseModel.java:248)
+	at opennlp.tools.util.model.BaseModel.<init>(BaseModel.java:179)
+	at opennlp.tools.postag.POSModel.<init>(POSModel.java:105)
+	at uk.ac.shef.dcs.jate.nlp.opennlp.POSTaggerOpenNLP.<init>(POSTaggerOpenNLP.java:18)
+	... 20 more
+
+org.apache.solr.common.SolrException: Could not load conf for core jateSpanish: Initiating org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory failed due to:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at uk.ac.shef.dcs.jate.nlp.InstanceCreator.createPOSTagger(InstanceCreator.java:28)
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory.inform(OpenNLPPOSTaggerFactory.java:40)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at opennlp.tools.util.model.BaseModel.getManifestProperty(BaseModel.java:524)
+	at opennlp.tools.util.model.BaseModel.initializeFactory(BaseModel.java:262)
+	at opennlp.tools.util.model.BaseModel.loadModel(BaseModel.java:248)
+	at opennlp.tools.util.model.BaseModel.<init>(BaseModel.java:179)
+	at opennlp.tools.postag.POSModel.<init>(POSModel.java:105)
+	at uk.ac.shef.dcs.jate.nlp.opennlp.POSTaggerOpenNLP.<init>(POSTaggerOpenNLP.java:18)
+	... 20 more
+
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.IllegalArgumentException: Initiating org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory failed due to:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at uk.ac.shef.dcs.jate.nlp.InstanceCreator.createPOSTagger(InstanceCreator.java:28)
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory.inform(OpenNLPPOSTaggerFactory.java:40)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at opennlp.tools.util.model.BaseModel.getManifestProperty(BaseModel.java:524)
+	at opennlp.tools.util.model.BaseModel.initializeFactory(BaseModel.java:262)
+	at opennlp.tools.util.model.BaseModel.loadModel(BaseModel.java:248)
+	at opennlp.tools.util.model.BaseModel.<init>(BaseModel.java:179)
+	at opennlp.tools.postag.POSModel.<init>(POSModel.java:105)
+	at uk.ac.shef.dcs.jate.nlp.opennlp.POSTaggerOpenNLP.<init>(POSTaggerOpenNLP.java:18)
+	... 20 more
+
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory.inform(OpenNLPPOSTaggerFactory.java:45)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+2018-10-30 18:03:44.934 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Jate\solr-5.3.0\server\solr\jateCore\conf'
+2018-10-30 18:03:44.935 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'jateCore' using configuration from instancedir C:\Jate\solr-5.3.0\server\solr\jateCore\
+2018-10-30 18:03:44.936 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2018-10-30 18:03:44.948 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore [[jateCore] ] Opening new SolrCore at [C:\Jate\solr-5.3.0\server\solr\jateCore\], dataDir=[null]
+2018-10-30 18:03:44.950 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2018-10-30 18:03:44.952 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore [[jateCore] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2018-10-30 18:03:44.953 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore [[jateCore] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2018-10-30 18:03:44.963 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Jate\solr-5.3.0\server\solr\jateCore\data
+2018-10-30 18:03:44.965 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Jate\solr-5.3.0\server\solr\jateCore\data\index/
+2018-10-30 18:03:44.968 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Jate\solr-5.3.0\server\solr\jateCore\data\index
+2018-10-30 18:03:44.982 INFO  (OldIndexDirectoryCleanupThreadForCore-jateCore) [   x:jateCore] o.a.s.c.SolrCore Looking for old index directories to cleanup for core jateCore in C:\Jate\solr-5.3.0\server\solr\jateCore\data\
+2018-10-30 18:03:44.984 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2018-10-30 18:03:44.986 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-10-30 18:03:45.065 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "langid"
+2018-10-30 18:03:45.074 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "langid"
+2018-10-30 18:03:45.074 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2018-10-30 18:03:45.104 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-10-30 18:03:45.106 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-10-30 18:03:45.108 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-10-30 18:03:45.109 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-10-30 18:03:45.128 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2018-10-30 18:03:45.129 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2018-10-30 18:03:45.129 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2018-10-30 18:03:45.133 WARN  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.admin.AdminHandlers]. Please consult documentation how to replace it accordingly.
+2018-10-30 18:03:45.136 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2018-10-30 18:03:45.137 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2018-10-30 18:03:45.137 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2018-10-30 18:03:45.146 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2018-10-30 18:03:45.146 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin,/admin/ping,/update,/termRecogniser,/admin/file,/debug/dump,/terms,/update/extract
+2018-10-30 18:03:45.151 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2018-10-30 18:03:45.241 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-10-30 18:03:45.241 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-10-30 18:03:45.269 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2018-10-30 18:03:45.269 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2018-10-30 18:03:45.324 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@14722d44; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14}
+2018-10-30 18:03:45.325 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore newest commit generation = 14
+2018-10-30 18:03:45.440 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.s.SolrIndexSearcher Opening Searcher@6dc01e6f[jateCore] main
+2018-10-30 18:03:45.448 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Jate\solr-5.3.0\server\solr\jateCore\conf
+2018-10-30 18:03:45.449 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Jate\solr-5.3.0\server\solr\jateCore\conf}
+2018-10-30 18:03:45.459 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Jate\solr-5.3.0\server\solr\jateCore\conf
+2018-10-30 18:03:45.460 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2018-10-30 18:03:45.467 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-10-30 18:03:45.474 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-10-30 18:03:45.481 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2018-10-30 18:03:45.483 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Jate\solr-5.3.0\server\solr\jateCore\conf\elevate.xml
+2018-10-30 18:03:45.501 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-10-30 18:03:45.503 WARN  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.a.AdminHandlers <requestHandler name="/admin/" 
+ class="solr.admin.AdminHandlers" /> is deprecated . It is not required anymore
+2018-10-30 18:03:45.504 INFO  (searcherExecutor-7-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@6dc01e6f[jateCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(5.3.0):C4033)))}
+2018-10-30 18:03:45.517 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2018-10-30 18:03:45.520 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2018-10-30 18:03:45.539 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.VersionInfo Found MAX value 1612849244814704642 from Terms for _version_ in index
+2018-10-30 18:03:45.544 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.UpdateLog Took 26 ms to seed version buckets with highest version 1612849244814704642
+2018-10-30 18:03:45.546 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.CoreContainer registering core: jateCore
+2018-10-30 18:03:45.546 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [jateSpanish]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.solr.core.CoreContainer$2.run(CoreContainer.java:476)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [jateSpanish]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:741)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core jateSpanish: Initiating org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory failed due to:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at uk.ac.shef.dcs.jate.nlp.InstanceCreator.createPOSTagger(InstanceCreator.java:28)
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory.inform(OpenNLPPOSTaggerFactory.java:40)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at opennlp.tools.util.model.BaseModel.getManifestProperty(BaseModel.java:524)
+	at opennlp.tools.util.model.BaseModel.initializeFactory(BaseModel.java:262)
+	at opennlp.tools.util.model.BaseModel.loadModel(BaseModel.java:248)
+	at opennlp.tools.util.model.BaseModel.<init>(BaseModel.java:179)
+	at opennlp.tools.postag.POSModel.<init>(POSModel.java:105)
+	at uk.ac.shef.dcs.jate.nlp.opennlp.POSTaggerOpenNLP.<init>(POSTaggerOpenNLP.java:18)
+	... 20 more
+
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:80)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	... 7 more
+Caused by: java.lang.IllegalArgumentException: Initiating org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory failed due to:
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at uk.ac.shef.dcs.jate.nlp.InstanceCreator.createPOSTagger(InstanceCreator.java:28)
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory.inform(OpenNLPPOSTaggerFactory.java:40)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:725)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at opennlp.tools.util.model.BaseModel.getManifestProperty(BaseModel.java:524)
+	at opennlp.tools.util.model.BaseModel.initializeFactory(BaseModel.java:262)
+	at opennlp.tools.util.model.BaseModel.loadModel(BaseModel.java:248)
+	at opennlp.tools.util.model.BaseModel.<init>(BaseModel.java:179)
+	at opennlp.tools.postag.POSModel.<init>(POSModel.java:105)
+	at uk.ac.shef.dcs.jate.nlp.opennlp.POSTaggerOpenNLP.<init>(POSTaggerOpenNLP.java:18)
+	... 20 more
+
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFactory.inform(OpenNLPPOSTaggerFactory.java:45)
+	at org.apache.solr.core.SolrResourceLoader.inform(SolrResourceLoader.java:643)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:176)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:55)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:69)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:104)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:75)
+	... 8 more
+2018-10-30 18:03:45.567 INFO  (searcherExecutor-7-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=11 status=0 QTime=61 
+2018-10-30 18:03:45.584 INFO  (searcherExecutor-7-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore QuerySenderListener done.
+2018-10-30 18:03:45.584 INFO  (searcherExecutor-7-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-10-30 18:03:45.585 INFO  (searcherExecutor-7-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2018-10-30 18:03:45.585 INFO  (searcherExecutor-7-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore [jateCore] Registered new searcher Searcher@6dc01e6f[jateCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_p(5.3.0):C4033)))}
+2018-10-30 18:03:51.122 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1540922631116} status=0 QTime=2 
+2018-10-30 18:03:51.179 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1540922631177} status=0 QTime=0 
+2018-10-30 18:04:01.634 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1540922641625} status=0 QTime=3 
+2018-10-30 18:04:11.654 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922651646} status=0 QTime=0 
+2018-10-30 18:04:21.666 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922661662} status=0 QTime=0 
+2018-10-30 18:04:32.264 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922672257} status=0 QTime=0 
+2018-10-30 18:04:43.253 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922683249} status=0 QTime=0 
+2018-10-30 18:04:54.256 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922694249} status=0 QTime=0 
+2018-10-30 18:05:05.254 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922705248} status=0 QTime=0 
+2018-10-30 18:05:16.259 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922716249} status=0 QTime=0 
+2018-10-30 18:05:27.266 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922727250} status=0 QTime=0 
+2018-10-30 18:05:38.257 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922738249} status=0 QTime=0 
+2018-10-30 18:05:49.254 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922749249} status=0 QTime=0 
+2018-10-30 18:06:00.323 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922760273} status=0 QTime=0 
+2018-10-30 18:06:11.256 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922771251} status=0 QTime=0 
+2018-10-30 18:06:22.280 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922782250} status=0 QTime=0 
+2018-10-30 18:06:33.254 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922793250} status=0 QTime=0 
+2018-10-30 18:06:44.262 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922804253} status=0 QTime=0 
+2018-10-30 18:06:55.269 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922815251} status=0 QTime=0 
+2018-10-30 18:07:06.267 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922826254} status=0 QTime=2 
+2018-10-30 18:07:17.259 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922837255} status=0 QTime=0 
+2018-10-30 18:07:28.272 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922848255} status=0 QTime=0 
+2018-10-30 18:07:39.266 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922859252} status=0 QTime=0 
+2018-10-30 18:07:50.266 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922870251} status=0 QTime=0 
+2018-10-30 18:08:01.272 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922881257} status=0 QTime=0 
+2018-10-30 18:08:12.251 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922892247} status=0 QTime=0 
+2018-10-30 18:08:23.252 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922903248} status=0 QTime=0 
+2018-10-30 18:08:34.252 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922914248} status=0 QTime=0 
+2018-10-30 18:08:45.255 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922925249} status=0 QTime=0 
+2018-10-30 18:08:55.275 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922935263} status=0 QTime=0 
+2018-10-30 18:09:06.258 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922946251} status=0 QTime=0 
+2018-10-30 18:09:17.257 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922957253} status=0 QTime=0 
+2018-10-30 18:09:28.257 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922968249} status=0 QTime=0 
+2018-10-30 18:09:39.271 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922979253} status=0 QTime=0 
+2018-10-30 18:09:50.261 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540922990248} status=0 QTime=0 
+2018-10-30 18:10:01.263 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923001249} status=0 QTime=0 
+2018-10-30 18:10:12.268 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923012253} status=0 QTime=0 
+2018-10-30 18:10:23.256 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923023249} status=0 QTime=0 
+2018-10-30 18:10:34.266 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923034248} status=0 QTime=0 
+2018-10-30 18:10:45.253 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923045247} status=0 QTime=0 
+2018-10-30 18:10:56.262 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923056252} status=0 QTime=0 
+2018-10-30 18:11:07.265 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923067251} status=0 QTime=0 
+2018-10-30 18:11:18.260 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923078247} status=0 QTime=0 
+2018-10-30 18:11:29.253 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923089250} status=0 QTime=0 
+2018-10-30 18:11:40.265 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923100251} status=0 QTime=0 
+2018-10-30 18:11:51.272 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923111256} status=0 QTime=0 
+2018-10-30 18:12:02.252 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923122250} status=0 QTime=0 
+2018-10-30 18:12:13.256 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923133250} status=0 QTime=0 
+2018-10-30 18:12:24.258 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923144249} status=0 QTime=0 
+2018-10-30 18:12:35.253 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923155248} status=0 QTime=0 
+2018-10-30 18:12:46.259 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923166249} status=0 QTime=0 
+2018-10-30 18:12:57.256 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923177250} status=0 QTime=0 
+2018-10-30 18:13:08.253 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923188250} status=0 QTime=0 
+2018-10-30 18:13:19.253 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923199251} status=0 QTime=0 
+2018-10-30 18:13:30.266 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923210256} status=0 QTime=0 
+2018-10-30 18:13:41.257 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923221253} status=0 QTime=0 
+2018-10-30 18:13:52.255 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923232249} status=0 QTime=0 
+2018-10-30 18:14:03.262 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923243248} status=0 QTime=0 
+2018-10-30 18:14:14.287 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923254279} status=0 QTime=0 
+2018-10-30 18:14:25.253 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923265248} status=0 QTime=0 
+2018-10-30 18:14:36.253 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923276250} status=0 QTime=0 
+2018-10-30 18:14:47.253 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923287248} status=0 QTime=0 
+2018-10-30 18:14:58.261 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923298248} status=0 QTime=1 
+2018-10-30 18:15:09.266 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923309251} status=0 QTime=0 
+2018-10-30 18:15:20.256 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923320252} status=0 QTime=0 
+2018-10-30 18:15:31.255 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923331249} status=0 QTime=0 
+2018-10-30 18:15:42.273 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923342257} status=0 QTime=0 
+2018-10-30 18:15:53.258 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923353249} status=0 QTime=0 
+2018-10-30 18:16:04.260 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923364249} status=0 QTime=0 
+2018-10-30 18:16:15.269 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923375251} status=0 QTime=0 
+2018-10-30 18:16:26.264 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923386257} status=0 QTime=0 
+2018-10-30 18:16:37.260 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923397248} status=0 QTime=0 
+2018-10-30 18:16:48.258 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923408252} status=0 QTime=0 
+2018-10-30 18:16:59.252 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923419248} status=0 QTime=0 
+2018-10-30 18:17:10.258 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923430249} status=0 QTime=0 
+2018-10-30 18:17:21.256 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923441252} status=0 QTime=0 
+2018-10-30 18:17:32.254 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923452251} status=0 QTime=0 
+2018-10-30 18:17:43.254 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923463249} status=0 QTime=0 
+2018-10-30 18:17:54.255 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923474250} status=0 QTime=0 
+2018-10-30 18:18:05.253 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923485249} status=0 QTime=0 
+2018-10-30 18:18:16.252 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923496248} status=0 QTime=0 
+2018-10-30 18:18:27.255 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923507251} status=0 QTime=0 
+2018-10-30 18:18:38.285 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923518260} status=0 QTime=0 
+2018-10-30 18:18:49.265 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923529257} status=0 QTime=0 
+2018-10-30 18:19:00.256 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923540248} status=0 QTime=0 
+2018-10-30 18:19:11.253 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923551250} status=0 QTime=0 
+2018-10-30 18:19:22.261 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923562252} status=0 QTime=0 
+2018-10-30 18:19:33.270 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923573254} status=0 QTime=0 
+2018-10-30 18:19:44.258 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923584253} status=0 QTime=0 
+2018-10-30 18:19:55.270 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923595249} status=0 QTime=0 
+2018-10-30 18:20:06.259 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923606255} status=0 QTime=0 
+2018-10-30 18:20:17.259 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923617255} status=0 QTime=0 
+2018-10-30 18:20:27.282 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923627266} status=0 QTime=0 
+2018-10-30 18:20:38.299 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923638251} status=0 QTime=0 
+2018-10-30 18:20:49.263 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923649250} status=0 QTime=0 
+2018-10-30 18:21:00.265 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923660251} status=0 QTime=0 
+2018-10-30 18:21:11.255 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923671247} status=0 QTime=0 
+2018-10-30 18:21:22.259 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923682249} status=0 QTime=0 
+2018-10-30 18:21:33.254 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923693249} status=0 QTime=0 
+2018-10-30 18:21:44.261 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923704248} status=0 QTime=0 
+2018-10-30 18:21:55.265 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923715250} status=0 QTime=0 
+2018-10-30 18:22:06.258 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923726250} status=0 QTime=0 
+2018-10-30 18:22:17.260 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923737248} status=0 QTime=0 
+2018-10-30 18:22:28.258 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923748249} status=0 QTime=0 
+2018-10-30 18:22:41.175 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923761123} status=0 QTime=0 
+2018-10-30 18:22:57.464 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923776823} status=0 QTime=0 
+2018-10-30 18:23:08.258 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923788248} status=0 QTime=0 
+2018-10-30 18:23:19.255 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923799249} status=0 QTime=0 
+2018-10-30 18:23:30.253 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923810248} status=0 QTime=0 
+2018-10-30 18:23:41.257 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923821251} status=0 QTime=0 
+2018-10-30 18:23:52.259 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923832249} status=0 QTime=0 
+2018-10-30 18:24:03.252 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923843248} status=0 QTime=0 
+2018-10-30 18:24:13.596 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923853351} status=0 QTime=0 
+2018-10-30 18:24:24.260 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923864254} status=0 QTime=0 
+2018-10-30 18:24:35.705 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923875693} status=0 QTime=0 
+2018-10-30 18:24:46.203 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923885987} status=0 QTime=0 
+2018-10-30 18:24:56.256 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923896251} status=0 QTime=0 
+2018-10-30 18:25:07.254 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923907249} status=0 QTime=0 
+2018-10-30 18:25:18.269 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923918249} status=0 QTime=0 
+2018-10-30 18:25:29.262 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923929248} status=0 QTime=0 
+2018-10-30 18:25:40.266 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923940250} status=0 QTime=0 
+2018-10-30 18:25:51.260 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923951250} status=0 QTime=0 
+2018-10-30 18:26:02.254 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923962250} status=0 QTime=0 
+2018-10-30 18:26:13.254 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923973248} status=0 QTime=0 
+2018-10-30 18:26:24.262 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923984250} status=0 QTime=0 
+2018-10-30 18:26:35.265 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540923995252} status=0 QTime=0 
+2018-10-30 18:26:46.272 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924006258} status=0 QTime=0 
+2018-10-30 18:26:57.258 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924017249} status=0 QTime=0 
+2018-10-30 18:27:08.255 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924028251} status=0 QTime=0 
+2018-10-30 18:27:19.255 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924039249} status=0 QTime=0 
+2018-10-30 18:27:30.254 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924050250} status=0 QTime=0 
+2018-10-30 18:27:41.259 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924061252} status=0 QTime=0 
+2018-10-30 18:27:52.299 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924072286} status=0 QTime=0 
+2018-10-30 18:28:03.260 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924083249} status=0 QTime=0 
+2018-10-30 18:28:14.259 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924094254} status=0 QTime=0 
+2018-10-30 18:28:25.259 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924105249} status=0 QTime=0 
+2018-10-30 18:28:36.264 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924116254} status=0 QTime=0 
+2018-10-30 18:28:47.257 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924127250} status=0 QTime=0 
+2018-10-30 18:28:58.257 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924138249} status=0 QTime=0 
+2018-10-30 18:29:08.283 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924148274} status=0 QTime=0 
+2018-10-30 18:29:19.260 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924159249} status=0 QTime=0 
+2018-10-30 18:29:30.263 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924170256} status=0 QTime=0 
+2018-10-30 18:29:41.268 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924181263} status=0 QTime=0 
+2018-10-30 18:29:52.254 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924192250} status=0 QTime=0 
+2018-10-30 18:30:03.266 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924203251} status=0 QTime=0 
+2018-10-30 18:30:13.290 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924213286} status=0 QTime=0 
+2018-10-30 18:30:24.256 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924224251} status=0 QTime=0 
+2018-10-30 18:30:35.262 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924235248} status=0 QTime=0 
+2018-10-30 18:30:46.272 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924246256} status=0 QTime=0 
+2018-10-30 18:30:57.274 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924257256} status=0 QTime=0 
+2018-10-30 18:31:08.252 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924268248} status=0 QTime=0 
+2018-10-30 18:31:19.257 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924279249} status=0 QTime=0 
+2018-10-30 18:31:30.257 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924290248} status=0 QTime=0 
+2018-10-30 18:31:41.263 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924301254} status=0 QTime=0 
+2018-10-30 18:31:52.269 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924312257} status=0 QTime=0 
+2018-10-30 18:32:03.262 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924323250} status=0 QTime=0 
+2018-10-30 18:32:14.260 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924334250} status=0 QTime=0 
+2018-10-30 18:32:25.268 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924345248} status=0 QTime=0 
+2018-10-30 18:32:36.254 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924356249} status=0 QTime=0 
+2018-10-30 18:32:47.270 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924367258} status=0 QTime=0 
+2018-10-30 18:32:58.265 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924378249} status=0 QTime=0 
+2018-10-30 18:33:09.267 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924389255} status=0 QTime=0 
+2018-10-30 18:33:20.253 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924400250} status=0 QTime=0 
+2018-10-30 18:33:31.271 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924411258} status=0 QTime=0 
+2018-10-30 18:33:42.272 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924422256} status=0 QTime=0 
+2018-10-30 18:33:53.273 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924433249} status=0 QTime=0 
+2018-10-30 18:34:04.268 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924444256} status=0 QTime=0 
+2018-10-30 18:34:15.290 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924455263} status=0 QTime=0 
+2018-10-30 18:34:26.256 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924466248} status=0 QTime=0 
+2018-10-30 18:34:37.253 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924477250} status=0 QTime=0 
+2018-10-30 18:34:48.270 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924488249} status=0 QTime=0 
+2018-10-30 18:34:59.254 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924499248} status=0 QTime=0 
+2018-10-30 18:35:10.268 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924510263} status=0 QTime=0 
+2018-10-30 18:35:21.273 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924521249} status=0 QTime=1 
+2018-10-30 18:35:32.268 INFO  (qtp1013423070-16) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924532257} status=0 QTime=0 
+2018-10-30 18:35:43.262 INFO  (qtp1013423070-13) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924543254} status=0 QTime=0 
+2018-10-30 18:35:54.253 INFO  (qtp1013423070-19) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924554250} status=0 QTime=0 
+2018-10-30 18:36:05.260 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924565247} status=0 QTime=0 
+2018-10-30 18:36:16.253 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924576249} status=0 QTime=0 
+2018-10-30 18:36:26.269 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=1540922625546&_=1540924586262} status=0 QTime=0 
+2018-10-30 18:36:31.930 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@4526d63b{HTTP/1.1}{0.0.0.0:8983}
+2018-10-30 18:36:31.931 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1881561036
+2018-10-30 18:36:31.931 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.SolrCore [jateCore]  CLOSING SolrCore org.apache.solr.core.SolrCore@ed789e5
+2018-10-30 18:36:31.932 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=0,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=385399,transaction_logs_total_number=1}
+2018-10-30 18:36:31.932 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.u.SolrCoreState Closing SolrCoreState
+2018-10-30 18:36:31.932 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-10-30 18:36:31.932 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2018-10-30 18:36:31.937 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.SolrCore [jateCore] Closing main searcher on request.
+2018-10-30 18:36:31.940 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2018-10-30 18:36:31.941 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory looking to close C:\Jate\solr-5.3.0\server\solr\jateCore\data\index [CachedDir<<refCount=0;path=C:\Jate\solr-5.3.0\server\solr\jateCore\data\index;done=false>>]
+2018-10-30 18:36:31.941 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Jate\solr-5.3.0\server\solr\jateCore\data\index
+2018-10-30 18:36:31.941 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory looking to close C:\Jate\solr-5.3.0\server\solr\jateCore\data [CachedDir<<refCount=0;path=C:\Jate\solr-5.3.0\server\solr\jateCore\data;done=false>>]
+2018-10-30 18:36:31.942 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Jate\solr-5.3.0\server\solr\jateCore\data
+2018-10-30 18:36:31.944 INFO  (ShutdownMonitor) [   x:jateCore] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@31ef45e3{/solr,file:/C:/Jate/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{C:\Jate\solr-5.3.0\server/solr-webapp/webapp}

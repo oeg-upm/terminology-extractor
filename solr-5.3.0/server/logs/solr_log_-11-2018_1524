@@ -1,0 +1,327 @@
+2018-11-12 13:52:02.197 INFO  (main) [   ] o.e.j.u.log Logging initialized @403ms
+2018-11-12 13:52:02.410 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2018-11-12 13:52:02.420 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2018-11-12 13:52:02.422 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Jate/solr-5.3.0/server/contexts/] at interval 0
+2018-11-12 13:52:03.175 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-11-12 13:52:03.185 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@31ef45e3{/solr,file:/C:/Jate/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{C:\Jate\solr-5.3.0\server/solr-webapp/webapp} has uncovered http methods for path: /
+2018-11-12 13:52:03.191 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1845904670@6e06451e
+2018-11-12 13:52:03.203 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-11-12 13:52:03.203 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\\Jate\\solr-5.3.0\\server\\solr
+2018-11-12 13:52:03.204 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\\Jate\\solr-5.3.0\\server\\solr\'
+2018-11-12 13:52:03.323 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Jate\solr-5.3.0\server\solr\solr.xml
+2018-11-12 13:52:03.381 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Jate\solr-5.3.0\server\solr
+2018-11-12 13:52:03.400 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1881561036
+2018-11-12 13:52:03.401 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\\Jate\\solr-5.3.0\\server\\solr\]
+2018-11-12 13:52:03.401 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Jate\solr-5.3.0\server\solr\lib
+2018-11-12 13:52:03.401 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Jate\solr-5.3.0\server\solr\lib).
+2018-11-12 13:52:03.413 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2018-11-12 13:52:03.773 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2018-11-12 13:52:03.775 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2018-11-12 13:52:03.776 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2018-11-12 13:52:03.777 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2018-11-12 13:52:03.777 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2018-11-12 13:52:08.314 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Jate\solr-5.3.0\server\solr
+2018-11-12 13:52:08.347 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=jateCore, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Jate\solr-5.3.0\server\solr\jateCore, absoluteInstDir=C:\Jate\solr-5.3.0\server\solr\jateCore\, dataDir=data\}
+2018-11-12 13:52:08.348 INFO  (main) [   ] o.a.s.c.CoresLocator Found core jateCore in C:\Jate\solr-5.3.0\server\solr\jateCore\
+2018-11-12 13:52:08.349 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=jateSpanish, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Jate\solr-5.3.0\server\solr\jateSpanish, absoluteInstDir=C:\Jate\solr-5.3.0\server\solr\jateSpanish\, dataDir=data\}
+2018-11-12 13:52:08.349 INFO  (main) [   ] o.a.s.c.CoresLocator Found core jateSpanish in C:\Jate\solr-5.3.0\server\solr\jateSpanish\
+2018-11-12 13:52:08.349 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+2018-11-12 13:52:08.354 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Jate\solr-5.3.0\server\solr\jateCore\'
+2018-11-12 13:52:08.354 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Jate\solr-5.3.0\server
+2018-11-12 13:52:08.354 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2018-11-12 13:52:08.360 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Jate\solr-5.3.0\server\solr\jateSpanish\'
+2018-11-12 13:52:08.386 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@31ef45e3{/solr,file:/C:/Jate/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Jate\solr-5.3.0\server/solr-webapp/webapp}
+2018-11-12 13:52:08.454 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7c37508a{HTTP/1.1}{0.0.0.0:8983}
+2018-11-12 13:52:08.455 INFO  (main) [   ] o.e.j.s.Server Started @6664ms
+2018-11-12 13:52:08.469 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2018-11-12 13:52:08.475 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2018-11-12 13:52:08.477 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2018-11-12 13:52:08.480 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Jate/solr-5.3.0/contrib/jate/lib/jate-2.0-beta.1-jar-with-dependencies.jar' to classloader
+2018-11-12 13:52:08.481 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2018-11-12 13:52:08.483 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Jate/solr-5.3.0/contrib/jate/lib/jate-2.0-beta.1-jar-with-dependencies.jar' to classloader
+2018-11-12 13:52:08.577 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-11-12 13:52:08.586 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 4.10.4
+2018-11-12 13:52:08.589 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-11-12 13:52:08.595 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 4.10.4
+2018-11-12 13:52:08.735 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2018-11-12 13:52:08.739 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2018-11-12 13:52:08.747 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Jate\solr-5.3.0\server\solr\jateSpanish\conf\schema.xml
+2018-11-12 13:52:08.747 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Jate\solr-5.3.0\server\solr\jateCore\conf\schema.xml
+2018-11-12 13:52:08.761 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [jateCore] Schema name=jate
+2018-11-12 13:52:08.799 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [jateSpanish] Schema name=jate
+2018-11-12 13:52:08.978 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2018-11-12 13:52:08.979 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2018-11-12 13:52:08.980 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema unique key field: id
+2018-11-12 13:52:09.010 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2018-11-12 13:52:09.014 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2018-11-12 13:52:09.015 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2018-11-12 13:52:10.052 INFO  (qtp1013423070-14) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=11 
+2018-11-12 13:52:10.154 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Jate\solr-5.3.0\server\solr\jateSpanish\conf'
+2018-11-12 13:52:10.154 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'jateSpanish' using configuration from instancedir C:\Jate\solr-5.3.0\server\solr\jateSpanish\
+2018-11-12 13:52:10.155 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2018-11-12 13:52:10.169 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.SolrCore [[jateSpanish] ] Opening new SolrCore at [C:\Jate\solr-5.3.0\server\solr\jateSpanish\], dataDir=[null]
+2018-11-12 13:52:10.171 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2018-11-12 13:52:10.174 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.SolrCore [[jateSpanish] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2018-11-12 13:52:10.175 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.SolrCore [[jateSpanish] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2018-11-12 13:52:10.187 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.CachingDirectoryFactory return new directory for C:\Jate\solr-5.3.0\server\solr\jateSpanish\data
+2018-11-12 13:52:10.188 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Jate\solr-5.3.0\server\solr\jateSpanish\data\index/
+2018-11-12 13:52:10.191 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.CachingDirectoryFactory return new directory for C:\Jate\solr-5.3.0\server\solr\jateSpanish\data\index
+2018-11-12 13:52:10.204 ERROR (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.SolrCore [jateSpanish] Solr index directory 'C:\Jate\solr-5.3.0\server\solr\jateSpanish\data\index/' is locked.  Throwing exception.
+2018-11-12 13:52:10.205 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.SolrCore [jateSpanish]  CLOSING SolrCore org.apache.solr.core.SolrCore@599c0a37
+2018-11-12 13:52:10.205 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.u.SolrCoreState Closing SolrCoreState
+2018-11-12 13:52:10.205 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-11-12 13:52:10.205 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.SolrCore [jateSpanish] Closing main searcher on request.
+2018-11-12 13:52:10.205 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2018-11-12 13:52:10.206 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.CachingDirectoryFactory looking to close C:\Jate\solr-5.3.0\server\solr\jateSpanish\data [CachedDir<<refCount=0;path=C:\Jate\solr-5.3.0\server\solr\jateSpanish\data;done=false>>]
+2018-11-12 13:52:10.206 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Jate\solr-5.3.0\server\solr\jateSpanish\data
+2018-11-12 13:52:10.206 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.CachingDirectoryFactory looking to close C:\Jate\solr-5.3.0\server\solr\jateSpanish\data\index [CachedDir<<refCount=0;path=C:\Jate\solr-5.3.0\server\solr\jateSpanish\data\index;done=false>>]
+2018-11-12 13:52:10.206 INFO  (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Jate\solr-5.3.0\server\solr\jateSpanish\data\index
+2018-11-12 13:52:10.207 ERROR (coreLoadExecutor-6-thread-2) [   x:jateSpanish] o.a.s.c.CoreContainer Error creating core [jateSpanish]: Index locked for write for core 'jateSpanish'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+org.apache.solr.common.SolrException: Index locked for write for core 'jateSpanish'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:820)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:727)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index locked for write for core 'jateSpanish'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:528)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:761)
+	... 9 more
+2018-11-12 13:52:11.321 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Jate\solr-5.3.0\server\solr\jateCore\conf'
+2018-11-12 13:52:11.322 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'jateCore' using configuration from instancedir C:\Jate\solr-5.3.0\server\solr\jateCore\
+2018-11-12 13:52:11.322 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2018-11-12 13:52:11.323 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore [[jateCore] ] Opening new SolrCore at [C:\Jate\solr-5.3.0\server\solr\jateCore\], dataDir=[null]
+2018-11-12 13:52:11.323 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2018-11-12 13:52:11.324 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore [[jateCore] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2018-11-12 13:52:11.324 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore [[jateCore] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2018-11-12 13:52:11.325 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Jate\solr-5.3.0\server\solr\jateCore\data
+2018-11-12 13:52:11.325 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Jate\solr-5.3.0\server\solr\jateCore\data\index/
+2018-11-12 13:52:11.326 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Jate\solr-5.3.0\server\solr\jateCore\data\index
+2018-11-12 13:52:11.329 INFO  (OldIndexDirectoryCleanupThreadForCore-jateCore) [   x:jateCore] o.a.s.c.SolrCore Looking for old index directories to cleanup for core jateCore in C:\Jate\solr-5.3.0\server\solr\jateCore\data\
+2018-11-12 13:52:11.330 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2018-11-12 13:52:11.332 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-11-12 13:52:11.395 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "langid"
+2018-11-12 13:52:11.403 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "langid"
+2018-11-12 13:52:11.403 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2018-11-12 13:52:11.424 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-12 13:52:11.425 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-12 13:52:11.426 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-12 13:52:11.426 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-12 13:52:15.962 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2018-11-12 13:52:15.962 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2018-11-12 13:52:15.963 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2018-11-12 13:52:15.967 WARN  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.admin.AdminHandlers]. Please consult documentation how to replace it accordingly.
+2018-11-12 13:52:15.969 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2018-11-12 13:52:15.970 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2018-11-12 13:52:15.970 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2018-11-12 13:52:15.986 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2018-11-12 13:52:15.986 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin,/admin/ping,/cvalue,/update,/termRecogniser,/ttfidf,/admin/file,/debug/dump,/terms,/update/extract
+2018-11-12 13:52:15.991 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2018-11-12 13:52:16.001 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-11-12 13:52:16.001 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-11-12 13:52:16.018 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2018-11-12 13:52:16.018 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2018-11-12 13:52:16.062 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+2018-11-12 13:52:16.063 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.SolrCore newest commit generation = 7
+2018-11-12 13:52:16.147 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.s.SolrIndexSearcher Opening Searcher@5068f4e7[jateCore] main
+2018-11-12 13:52:16.154 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Jate\solr-5.3.0\server\solr\jateCore\conf
+2018-11-12 13:52:16.154 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Jate\solr-5.3.0\server\solr\jateCore\conf}
+2018-11-12 13:52:16.164 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Jate\solr-5.3.0\server\solr\jateCore\conf
+2018-11-12 13:52:16.165 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2018-11-12 13:52:16.172 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-11-12 13:52:16.178 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-11-12 13:52:16.183 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2018-11-12 13:52:16.184 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Jate\solr-5.3.0\server\solr\jateCore\conf\elevate.xml
+2018-11-12 13:52:16.197 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-11-12 13:52:16.198 WARN  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.h.a.AdminHandlers <requestHandler name="/admin/" 
+ class="solr.admin.AdminHandlers" /> is deprecated . It is not required anymore
+2018-11-12 13:52:16.199 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@5068f4e7[jateCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C654) Uninverting(_1(5.3.0):C48) Uninverting(_2(5.3.0):C593) Uninverting(_3(5.3.0):C40) Uninverting(_4(5.3.0):C631) Uninverting(_5(5.3.0):C42) Uninverting(_6(5.3.0):C635) Uninverting(_7(5.3.0):C40) Uninverting(_8(5.3.0):C701) Uninverting(_9(5.3.0):C37) Uninverting(_a(5.3.0):C612)))}
+2018-11-12 13:52:16.205 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2018-11-12 13:52:16.208 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2018-11-12 13:52:16.236 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.VersionInfo Found MAX value 1616935629641220096 from Terms for _version_ in index
+2018-11-12 13:52:16.241 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.u.UpdateLog Took 36 ms to seed version buckets with highest version 1616935629641220096
+2018-11-12 13:52:16.241 INFO  (coreLoadExecutor-6-thread-1) [   x:jateCore] o.a.s.c.CoreContainer registering core: jateCore
+2018-11-12 13:52:16.242 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [jateSpanish]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.solr.core.CoreContainer$2.run(CoreContainer.java:476)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor$1.run(ExecutorUtil.java:210)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [jateSpanish]
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:741)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:447)
+	at org.apache.solr.core.CoreContainer$1.call(CoreContainer.java:438)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Index locked for write for core 'jateSpanish'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:820)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:659)
+	at org.apache.solr.core.CoreContainer.create(CoreContainer.java:727)
+	... 7 more
+Caused by: org.apache.lucene.store.LockObtainFailedException: Index locked for write for core 'jateSpanish'. Solr now longer supports forceful unlocking via 'unlockOnStartup'. Please verify locks manually!
+	at org.apache.solr.core.SolrCore.initIndex(SolrCore.java:528)
+	at org.apache.solr.core.SolrCore.<init>(SolrCore.java:761)
+	... 9 more
+2018-11-12 13:52:16.256 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=11 status=0 QTime=55 
+2018-11-12 13:52:16.263 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore QuerySenderListener done.
+2018-11-12 13:52:16.263 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-11-12 13:52:16.263 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2018-11-12 13:52:16.263 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore [jateCore] Registered new searcher Searcher@5068f4e7[jateCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_0(5.3.0):C654) Uninverting(_1(5.3.0):C48) Uninverting(_2(5.3.0):C593) Uninverting(_3(5.3.0):C40) Uninverting(_4(5.3.0):C631) Uninverting(_5(5.3.0):C42) Uninverting(_6(5.3.0):C635) Uninverting(_7(5.3.0):C40) Uninverting(_8(5.3.0):C701) Uninverting(_9(5.3.0):C37) Uninverting(_a(5.3.0):C612)))}
+2018-11-12 13:52:23.404 INFO  (qtp1013423070-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1542030743397} status=0 QTime=1 
+2018-11-12 13:52:23.447 INFO  (qtp1013423070-20) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1542030743440} status=0 QTime=1 
+2018-11-12 13:52:30.380 INFO  (qtp1013423070-15) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1542030750339} status=0 QTime=3 
+2018-11-12 13:52:30.381 INFO  (qtp1013423070-14) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1542030750338} status=0 QTime=6 
+2018-11-12 13:52:30.412 INFO  (qtp1013423070-14) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1542030750393} status=0 QTime=2 
+2018-11-12 13:52:30.421 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/admin/system params={wt=json&_=1542030750411} status=0 QTime=1 
+2018-11-12 13:52:30.425 INFO  (qtp1013423070-20) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1542030750416} status=0 QTime=1 
+2018-11-12 13:52:30.432 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1542030750424} status=503 QTime=0 
+2018-11-12 13:52:30.433 INFO  (qtp1013423070-15) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/replication params={wt=json&command=details&_=1542030750408} status=0 QTime=18 
+2018-11-12 13:52:39.846 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler Term recognition request handler...
+2018-11-12 13:52:39.854 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler start candidate extraction (i.e., re-index of whole corpus) ...
+2018-11-12 13:54:01.689 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8}
+2018-11-12 13:54:01.691 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.c.SolrCore newest commit generation = 8
+2018-11-12 13:54:01.693 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler complete candidate terms indexing.
+2018-11-12 13:54:02.012 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.f.FrequencyTermBasedFBMaster Building features using cpu cores=8, total=232705, max per worker=29088
+2018-11-12 13:54:05.608 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.f.FrequencyTermBasedFBMaster Complete building features. Total=232705 success=232705
+2018-11-12 13:54:05.754 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.a.TFIDF Beginning computing TermEx values,, total terms=232705
+2018-11-12 13:54:06.047 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.a.TFIDF Complete
+2018-11-12 13:54:10.462 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler complete term recognition extraction! Finalized Term size [0]
+2018-11-12 13:54:10.500 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.a.AppTFIDF Exporting terms to [../TTF-IDF-Core.json]
+2018-11-12 13:54:10.509 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.a.AppTFIDF complete.
+2018-11-12 13:54:10.509 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler start to index filtered candidate terms ...
+2018-11-12 13:54:10.509 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler indexing [0] terms into field [jate_domain_terms] for total [4033] documents ...
+2018-11-12 13:54:10.510 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.u.UpdateHandler start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-12 13:54:15.471 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+2018-11-12 13:54:15.471 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.c.SolrCore newest commit generation = 9
+2018-11-12 13:54:15.516 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.s.SolrIndexSearcher Opening Searcher@441d8ef2[jateCore] main
+2018-11-12 13:54:15.517 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-12 13:54:15.518 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@441d8ef2[jateCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_d(5.3.0):C4033)))}
+2018-11-12 13:54:15.518 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore QuerySenderListener done.
+2018-11-12 13:54:15.518 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore [jateCore] Registered new searcher Searcher@441d8ef2[jateCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_d(5.3.0):C4033)))}
+2018-11-12 13:54:15.518 INFO  (qtp1013423070-13) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler complete the indexing of candidate terms.
+2018-11-12 13:54:15.518 INFO  (qtp1013423070-13) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/ttfidf params={} status=0 QTime=95674 
+2018-11-12 13:54:37.447 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler Term recognition request handler...
+2018-11-12 13:54:37.449 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler start candidate extraction (i.e., re-index of whole corpus) ...
+2018-11-12 13:56:42.559 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+2018-11-12 13:56:42.559 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.c.SolrCore newest commit generation = 10
+2018-11-12 13:56:42.559 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler complete candidate terms indexing.
+2018-11-12 13:56:42.561 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.a.AppCValue Start CValue term ranking and filtering for whole index ...
+2018-11-12 13:56:42.661 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.f.FrequencyTermBasedFBMaster Building features using cpu cores=8, total=232705, max per worker=29088
+2018-11-12 13:56:44.212 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.f.FrequencyTermBasedFBMaster Complete building features. Total=232705 success=232705
+2018-11-12 13:56:44.224 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.f.TermComponentIndexFBMaster Beginning building features (TermComponentIndex). Total terms=232705, cpu cores=8, max per core=29088
+2018-11-12 13:56:44.751 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.f.TermComponentIndexFBMaster Complete building features. Total processed terms = 232705
+2018-11-12 13:56:44.752 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.f.ContainmentFBMaster Building features using cpu cores=8, total terms=232705, max per worker=29088
+2018-11-12 13:56:44.781 INFO  (ForkJoinPool-4-worker-3) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=29088
+2018-11-12 13:56:44.781 INFO  (ForkJoinPool-4-worker-1) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=29088
+2018-11-12 13:56:44.791 INFO  (ForkJoinPool-4-worker-7) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=29088
+2018-11-12 13:56:44.781 INFO  (ForkJoinPool-4-worker-2) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=29088
+2018-11-12 13:56:44.786 INFO  (ForkJoinPool-4-worker-0) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=29088
+2018-11-12 13:56:44.879 INFO  (ForkJoinPool-4-worker-4) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=29088
+2018-11-12 13:56:45.002 INFO  (ForkJoinPool-4-worker-5) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=29088
+2018-11-12 13:56:45.047 INFO  (ForkJoinPool-4-worker-6) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=14544
+2018-11-12 13:57:02.651 INFO  (ForkJoinPool-4-worker-6) [   x:jateCore] u.a.s.d.j.f.ContainmentFBWorker Total terms to process=14545
+2018-11-12 13:57:24.056 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.f.ContainmentFBMaster Complete building features. Total=232705 success=232705
+2018-11-12 13:57:24.344 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.a.CValue Beginning computing CValue, cores=4, total terms=232705, max terms per worker thread=58176
+2018-11-12 13:57:24.605 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.a.CValue Complete
+2018-11-12 13:57:24.987 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.a.AppCValue Complete CValue term extraction.
+2018-11-12 13:57:24.988 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler complete term recognition extraction! Finalized Term size [156896]
+2018-11-12 13:57:24.988 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.a.AppCValue Exporting terms to [../cvalue-Core.json]
+2018-11-12 13:57:25.947 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.a.AppCValue complete.
+2018-11-12 13:57:25.947 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler start to index filtered candidate terms ...
+2018-11-12 13:57:25.947 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler indexing [156896] terms into field [jate_domain_terms] for total [4033] documents ...
+2018-11-12 14:22:31.898 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+2018-11-12 14:22:32.114 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.c.SolrCore newest commit generation = 11
+2018-11-12 14:22:32.142 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler finalised terms have been indexed into [jate_domain_terms] field for all documents
+2018-11-12 14:22:32.142 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.u.UpdateHandler start commit{,optimize=true,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-12 14:22:35.220 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Jate\solr-5.3.0\server\solr\jateCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@32829185; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12}
+2018-11-12 14:22:35.221 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.c.SolrCore newest commit generation = 12
+2018-11-12 14:22:35.298 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.s.SolrIndexSearcher Opening Searcher@34fdb2c0[jateCore] main
+2018-11-12 14:22:35.299 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-12 14:22:35.299 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@34fdb2c0[jateCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_j(5.3.0):C4033)))}
+2018-11-12 14:22:35.299 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore QuerySenderListener done.
+2018-11-12 14:22:35.299 INFO  (searcherExecutor-8-thread-1-processing-x:jateCore) [   x:jateCore] o.a.s.c.SolrCore [jateCore] Registered new searcher Searcher@34fdb2c0[jateCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_j(5.3.0):C4033)))}
+2018-11-12 14:22:35.299 INFO  (qtp1013423070-17) [   x:jateCore] u.a.s.d.j.s.TermRecognitionRequestHandler complete the indexing of candidate terms.
+2018-11-12 14:22:35.299 INFO  (qtp1013423070-17) [   x:jateCore] o.a.s.c.S.Request [jateCore] webapp=/solr path=/cvalue params={} status=0 QTime=1677852 
+2018-11-12 14:24:13.296 INFO  (ShutdownMonitor) [   ] o.e.j.s.ServerConnector Stopped ServerConnector@7c37508a{HTTP/1.1}{0.0.0.0:8983}
+2018-11-12 14:24:13.297 INFO  (ShutdownMonitor) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1881561036
+2018-11-12 14:24:13.297 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.SolrCore [jateCore]  CLOSING SolrCore org.apache.solr.core.SolrCore@6f7d6911
+2018-11-12 14:24:13.297 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.u.UpdateHandler closing DirectUpdateHandler2{commits=0,autocommit maxTime=15000ms,autocommits=0,soft autocommits=0,optimizes=2,rollbacks=0,expungeDeletes=0,docsPending=0,adds=0,deletesById=0,deletesByQuery=0,errors=0,cumulative_adds=0,cumulative_deletesById=0,cumulative_deletesByQuery=0,cumulative_errors=0,transaction_logs_total_size=699819,transaction_logs_total_number=1}
+2018-11-12 14:24:13.298 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.u.SolrCoreState Closing SolrCoreState
+2018-11-12 14:24:13.298 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.u.DefaultSolrCoreState SolrCoreState ref count has reached 0 - closing IndexWriter
+2018-11-12 14:24:13.298 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.u.DefaultSolrCoreState closing IndexWriter with IndexWriterCloser
+2018-11-12 14:24:13.300 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.SolrCore [jateCore] Closing main searcher on request.
+2018-11-12 14:24:13.302 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory Closing NRTCachingDirectoryFactory - 2 directories currently being tracked
+2018-11-12 14:24:26.371 ERROR (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory Timeout waiting for all directory ref counts to be released - gave up waiting on CachedDir<<refCount=2;path=C:\Jate\solr-5.3.0\server\solr\jateCore\data\index;done=false>>
+2018-11-12 14:24:26.371 ERROR (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory Error closing directory:org.apache.solr.common.SolrException: Timeout waiting for all directory ref counts to be released - gave up waiting on CachedDir<<refCount=2;path=C:\Jate\solr-5.3.0\server\solr\jateCore\data\index;done=false>>
+	at org.apache.solr.core.CachingDirectoryFactory.close(CachingDirectoryFactory.java:187)
+	at org.apache.solr.core.SolrCore.close(SolrCore.java:1257)
+	at org.apache.solr.core.SolrCores.close(SolrCores.java:124)
+	at org.apache.solr.core.CoreContainer.shutdown(CoreContainer.java:562)
+	at org.apache.solr.servlet.SolrDispatchFilter.destroy(SolrDispatchFilter.java:172)
+	at org.eclipse.jetty.servlet.FilterHolder.destroyInstance(FilterHolder.java:173)
+	at org.eclipse.jetty.servlet.FilterHolder.doStop(FilterHolder.java:151)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.servlet.ServletHandler.doStop(ServletHandler.java:230)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.security.SecurityHandler.doStop(SecurityHandler.java:411)
+	at org.eclipse.jetty.security.ConstraintSecurityHandler.doStop(ConstraintSecurityHandler.java:457)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.server.session.SessionHandler.doStop(SessionHandler.java:127)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.server.handler.ContextHandler.doStop(ContextHandler.java:835)
+	at org.eclipse.jetty.servlet.ServletContextHandler.doStop(ServletContextHandler.java:215)
+	at org.eclipse.jetty.webapp.WebAppContext.doStop(WebAppContext.java:529)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.stop(ContainerLifeCycle.java:143)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStop(ContainerLifeCycle.java:162)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStop(AbstractHandler.java:73)
+	at org.eclipse.jetty.server.Server.doStop(Server.java:456)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.stop(AbstractLifeCycle.java:89)
+	at org.eclipse.jetty.server.ShutdownMonitor$ShutdownMonitorRunnable.run(ShutdownMonitor.java:137)
+	at java.lang.Thread.run(Thread.java:748)
+
+2018-11-12 14:24:26.372 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory looking to close C:\Jate\solr-5.3.0\server\solr\jateCore\data [CachedDir<<refCount=0;path=C:\Jate\solr-5.3.0\server\solr\jateCore\data;done=false>>]
+2018-11-12 14:24:26.372 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Jate\solr-5.3.0\server\solr\jateCore\data
+2018-11-12 14:24:26.372 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory looking to close C:\Jate\solr-5.3.0\server\solr\jateCore\data\index [CachedDir<<refCount=2;path=C:\Jate\solr-5.3.0\server\solr\jateCore\data\index;done=false>>]
+2018-11-12 14:24:26.372 INFO  (ShutdownMonitor) [   x:jateCore] o.a.s.c.CachingDirectoryFactory Closing directory: C:\Jate\solr-5.3.0\server\solr\jateCore\data\index
+2018-11-12 14:24:26.374 INFO  (ShutdownMonitor) [   x:jateCore] o.e.j.s.h.ContextHandler Stopped o.e.j.w.WebAppContext@31ef45e3{/solr,file:/C:/Jate/solr-5.3.0/server/solr-webapp/webapp/,UNAVAILABLE}{C:\Jate\solr-5.3.0\server/solr-webapp/webapp}
