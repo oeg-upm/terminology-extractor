@@ -6,7 +6,6 @@
 package org.upm.oeg.terminology.extractor;
 
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.solr.client.solrj.SolrClient;
@@ -19,12 +18,8 @@ import org.apache.solr.common.SolrInputDocument;
  */
 public class Populator {
     
-    
-    
-      public static void main(String[] args) throws Exception {
-          
-          
-          
+     public static void main(String[] args) throws Exception {
+
         // PARAMETERS
         Map<String, String> parameters = getParams(args);
 
@@ -33,49 +28,48 @@ public class Populator {
             return;
         }
 
-      
-        populateCore(parameters.get("-i"),parameters.get("-c"));
- 
+        if (parameters.containsKey("-c")) {
+
+            populateCoreWithCorpus(parameters.get("-i"), parameters.get("-c"));
+
+        } else {
+
+            populateWithDocument(parameters.get("-i"), parameters.get("-d"));
+        }
+
     }
-      
-      
+
       protected static Map<String, String> getParams(String[] args) {
-        
+
         Map<String, String> params = new HashMap<>();
-        
-        if((args.length==0)) //|| (args.length%2!=0)
+
+        if ((args.length == 0)) //|| (args.length%2!=0)
         {
-            
+
             return null;
 
         }
-                  
-        
+
         for (int i = 0; i < args.length; i++) {
-                 
+
             String param = args[i];
-            
-            if(param.equals("-help")){
+
+            if (param.equals("-help")) {
                 return null;
-            }
-            
-          
-            
-            else{
- 
+            } else {
+
                 String value = args[i + 1];
                 i++;
                 params.put(param, value);
             }
-            
-            
+
         }
-        
+
         return params;
     }
+
       
-      
-     public static void populateCore(String CoreName, String CorpusFolder) throws Exception {
+     public static void populateCoreWithCorpus(String CoreName, String CorpusFolder) throws Exception {
 
         String core = CoreName;
         String serverUrl = "http://localhost:8983/solr/" + core;
@@ -87,42 +81,36 @@ public class Populator {
 
         for (File f : corpusDir.listFiles()) {
 
+            System.out.println("Adding "+f.getName()+" "+" to "+core);
             addDocument(solrClient, f.getName(), FileReader.readContent(f));
-
+            solrClient.commit();
+            System.out.println("Added");
         }
 
-        solrClient.commit();
+        
 
+        solrClient.close();
     }
-      
-      
+    
+    public static void populateWithDocument(String CoreName, String Document) throws Exception {
 
-    
-    
-    public static void populateCoreSpanish()throws Exception{
-      
-      String core = "jateSpanish";
+        String core = CoreName;
         String serverUrl = "http://localhost:8983/solr/" + core;
-        // String serverUrl = "http://localhost:8983/solr/#/";
-
-        String CorpusPath = "";
-        File corpusDir = new File("C:\\Jate\\CorpusSpanish");
+      
+        File fil = new File(Document);
 
         SolrClient solrClient = new HttpSolrClient.Builder(serverUrl).build();
 
-        System.out.println("connexion");
-
-        for (File f : corpusDir.listFiles()) {
-
-            addDocument(solrClient, f.getName(), FileReader.readContent(f));
-
-        }
-
+        System.out.println("Adding " + fil.getName() + " " + " to " + core);
+        addDocument(solrClient, fil.getName(), FileReader.readContent(fil));
         solrClient.commit();
-        
+        System.out.println("Added");
+
         solrClient.close();
-        
     }
+      
+
+    
     
     
     public static void addDocument(SolrClient solrClient,String id, String text) throws Exception{
@@ -151,9 +139,12 @@ public class Populator {
         }
         if (!params.containsKey("-c")){
         
-            return false;
-        }
+            if(!params.containsKey("-d")){
+                return false;
         
+            } 
+            
+        }
         return true;
     }
      

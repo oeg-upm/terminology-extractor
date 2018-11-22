@@ -5,13 +5,10 @@
  */
 package org.upm.oeg.terminology.extractor;
 
-import java.io.File;
-import java.io.FileNotFoundException;
 import java.util.HashMap;
 import java.util.Map;
 import org.apache.solr.client.solrj.SolrClient;
 import org.apache.solr.client.solrj.impl.HttpSolrClient;
-import org.apache.solr.common.SolrInputDocument;
 
 /**
  *
@@ -20,11 +17,8 @@ import org.apache.solr.common.SolrInputDocument;
 public class Deleter {
     
     
-    
       public static void main(String[] args) throws Exception {
-          
-          
-          
+
         // PARAMETERS
         Map<String, String> parameters = getParams(args);
 
@@ -33,95 +27,69 @@ public class Deleter {
             return;
         }
 
-      
         cleanCore(parameters.get("-i"));
- 
+
     }
-      
-      
-      protected static Map<String, String> getParams(String[] args) {
-        
+
+    protected static Map<String, String> getParams(String[] args) {
+
         Map<String, String> params = new HashMap<>();
-        
-        if((args.length==0)) //|| (args.length%2!=0)
+
+        if ((args.length == 0)) //|| (args.length%2!=0)
         {
-            
+
             return null;
 
         }
-                  
-        
+
         for (int i = 0; i < args.length; i++) {
-                 
+
             String param = args[i];
-            
-            if(param.equals("-help")){
+
+            if (param.equals("-help")) {
                 return null;
-            }
-            
-          
-            
-            else{
- 
+            } else {
+
                 String value = args[i + 1];
                 i++;
                 params.put(param, value);
             }
-            
-            
+
         }
-        
+
         return params;
     }
-      
-      
-     public static void cleanCore(String CoreName) throws Exception {
+
+    public static void cleanCore(String CoreName) throws Exception {
 
         String core = CoreName;
         String serverUrl = "http://localhost:8983/solr/" + core;
-      
 
         SolrClient solrClient = new HttpSolrClient.Builder(serverUrl).build();
-
-
-       solrClient.deleteByQuery("*:*");
-
-       
-
-
+        solrClient.deleteByQuery("*:*");
         solrClient.commit();
-        
-        solrClient.close();
 
     }
-      
-      
 
-    
-    
-   
-    
-    
-     protected static boolean checkParameters(Map<String, String> params) {
-        
-        if (params==null){return false;} 
-         
-        boolean corpus=false;
+    protected static boolean checkParameters(Map<String, String> params) {
+
+        if (params == null) {
+            return false;
+        }
+
+        boolean corpus = false;
         return params.containsKey("-i");
     }
-     
-     
-      protected static void printHelp() {
+
+    protected static void printHelp() {
         StringBuilder sb = new StringBuilder("Usage:\n");
-       // sb.append("java -cp '[CLASSPATH]' ").append(App.class.getName()).append(" ")
-      //  sb.append("[OPTIONS] [SOLR_HOME_PATH] [SOLR_CORE_NAME] ").append("\n\n");
-     
+        // sb.append("java -cp '[CLASSPATH]' ").append(App.class.getName()).append(" ")
+        //  sb.append("[OPTIONS] [SOLR_HOME_PATH] [SOLR_CORE_NAME] ").append("\n\n");
+
         sb.append("Example: java -cp target/hner-icij-1.0-jar-with-dependencies.jar org.upm.oeg.terminology.extractor  -i SpanishCore \n\n");
         sb.append("[OPTIONS]:\n")
-         
-         .append("\t\t -i\t\tA Core Instance of Solr \n");
-        
-              
+                .append("\t\t -i\t\tA Core Instance of Solr \n");
+
         System.out.println(sb);
     }
 

@@ -1,0 +1,474 @@
+2018-11-14 16:11:30.416 INFO  (main) [   ] o.e.j.u.log Logging initialized @640ms
+2018-11-14 16:11:30.723 INFO  (main) [   ] o.e.j.s.Server jetty-9.2.11.v20150529
+2018-11-14 16:11:30.737 WARN  (main) [   ] o.e.j.s.h.RequestLogHandler !RequestLog
+2018-11-14 16:11:30.740 INFO  (main) [   ] o.e.j.d.p.ScanningAppProvider Deployment monitor [file:/C:/Users/Pablo/Documents/GitHub/terminology-extractor/solr-5.3.0/server/contexts/] at interval 0
+2018-11-14 16:11:31.807 INFO  (main) [   ] o.e.j.w.StandardDescriptorProcessor NO JSP Support for /solr, did not find org.apache.jasper.servlet.JspServlet
+2018-11-14 16:11:31.820 WARN  (main) [   ] o.e.j.s.SecurityHandler ServletContext@o.e.j.w.WebAppContext@31ef45e3{/solr,file:/C:/Users/Pablo/Documents/GitHub/terminology-extractor/solr-5.3.0/server/solr-webapp/webapp/,STARTING}{C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server/solr-webapp/webapp} has uncovered http methods for path: /
+2018-11-14 16:11:31.830 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init(): WebAppClassLoader=1845904670@6e06451e
+2018-11-14 16:11:31.851 INFO  (main) [   ] o.a.s.c.SolrResourceLoader JNDI not configured for solr (NoInitialContextEx)
+2018-11-14 16:11:31.851 INFO  (main) [   ] o.a.s.c.SolrResourceLoader using system property solr.solr.home: C:\Users\Pablo\Documents\GitHub\terminology-extractor\\solr-5.3.0\\server\\solr
+2018-11-14 16:11:31.853 INFO  (main) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\Pablo\Documents\GitHub\terminology-extractor\\solr-5.3.0\\server\\solr\'
+2018-11-14 16:11:32.009 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\solr.xml
+2018-11-14 16:11:32.103 INFO  (main) [   ] o.a.s.c.CoresLocator Config-defined core root directory: C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr
+2018-11-14 16:11:32.130 INFO  (main) [   ] o.a.s.c.CoreContainer New CoreContainer 1881561036
+2018-11-14 16:11:32.131 INFO  (main) [   ] o.a.s.c.CoreContainer Loading cores into CoreContainer [instanceDir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\\solr-5.3.0\\server\\solr\]
+2018-11-14 16:11:32.131 INFO  (main) [   ] o.a.s.c.CoreContainer loading shared library: C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\lib
+2018-11-14 16:11:32.131 WARN  (main) [   ] o.a.s.c.SolrResourceLoader Can't find (or read) directory to add to classloader: lib (resolved as: C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\lib).
+2018-11-14 16:11:32.150 INFO  (main) [   ] o.a.s.h.c.HttpShardHandlerFactory created with socketTimeout : 600000,connTimeout : 60000,maxConnectionsPerHost : 20,maxConnections : 10000,corePoolSize : 0,maximumPoolSize : 2147483647,maxThreadIdleTime : 5,sizeOfQueue : -1,fairnessPolicy : false,useRetries : false,
+2018-11-14 16:11:32.639 INFO  (main) [   ] o.a.s.u.UpdateShardHandler Creating UpdateShardHandler HTTP client with params: socketTimeout=600000&connTimeout=60000&retry=true
+2018-11-14 16:11:32.642 INFO  (main) [   ] o.a.s.l.LogWatcher SLF4J impl is org.slf4j.impl.Log4jLoggerFactory
+2018-11-14 16:11:32.642 INFO  (main) [   ] o.a.s.l.LogWatcher Registering Log Listener [Log4j (org.slf4j.impl.Log4jLoggerFactory)]
+2018-11-14 16:11:32.645 INFO  (main) [   ] o.a.s.c.CoreContainer Security conf doesn't exist. Skipping setup for authorization module.
+2018-11-14 16:11:32.645 INFO  (main) [   ] o.a.s.c.CoreContainer No authentication plugin used.
+2018-11-14 16:11:32.691 INFO  (main) [   ] o.a.s.c.CoresLocator Looking for core definitions underneath C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr
+2018-11-14 16:11:32.744 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=EnglishCore, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore, absoluteInstDir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\, dataDir=data\}
+2018-11-14 16:11:32.745 INFO  (main) [   ] o.a.s.c.CoresLocator Found core EnglishCore in C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\
+2018-11-14 16:11:32.750 INFO  (main) [   ] o.a.s.c.SolrCore Created CoreDescriptor: {name=SpanishCore, config=solrconfig.xml, transient=false, schema=schema.xml, loadOnStartup=true, configSetProperties=configsetprops.json, instanceDir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore, absoluteInstDir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\, dataDir=data\}
+2018-11-14 16:11:32.750 INFO  (main) [   ] o.a.s.c.CoresLocator Found core SpanishCore in C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\
+2018-11-14 16:11:32.751 INFO  (main) [   ] o.a.s.c.CoresLocator Found 2 core definitions
+2018-11-14 16:11:32.755 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\'
+2018-11-14 16:11:32.756 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter user.dir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server
+2018-11-14 16:11:32.756 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter SolrDispatchFilter.init() done
+2018-11-14 16:11:32.756 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader new SolrResourceLoader for directory: 'C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\'
+2018-11-14 16:11:32.791 INFO  (main) [   ] o.e.j.s.h.ContextHandler Started o.e.j.w.WebAppContext@31ef45e3{/solr,file:/C:/Users/Pablo/Documents/GitHub/terminology-extractor/solr-5.3.0/server/solr-webapp/webapp/,AVAILABLE}{C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server/solr-webapp/webapp}
+2018-11-14 16:11:32.927 INFO  (main) [   ] o.e.j.s.ServerConnector Started ServerConnector@7c37508a{HTTP/1.1}{0.0.0.0:8983}
+2018-11-14 16:11:32.929 INFO  (main) [   ] o.e.j.s.Server Started @3156ms
+2018-11-14 16:11:32.930 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2018-11-14 16:11:32.932 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig current version of requestparams : 0
+2018-11-14 16:11:32.935 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2018-11-14 16:11:32.938 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/Pablo/Documents/GitHub/terminology-extractor/solr-5.3.0/contrib/jate/lib/jate-2.0-beta.1-jar-with-dependencies.jar' to classloader
+2018-11-14 16:11:32.938 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Adding specified lib dirs to ClassLoader
+2018-11-14 16:11:32.942 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrResourceLoader Adding 'file:/C:/Users/Pablo/Documents/GitHub/terminology-extractor/solr-5.3.0/contrib/jate/lib/jate-2.0-beta.1-jar-with-dependencies.jar' to classloader
+2018-11-14 16:11:33.081 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-11-14 16:11:33.087 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-11-14 16:11:33.092 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 4.10.4
+2018-11-14 16:11:33.092 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.SolrConfig Using Lucene MatchVersion: 4.10.4
+2018-11-14 16:11:33.267 INFO  (qtp1013423070-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json} status=0 QTime=54 
+2018-11-14 16:11:33.344 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2018-11-14 16:11:33.369 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.Config Loaded SolrConfig: solrconfig.xml
+2018-11-14 16:11:33.376 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\conf\schema.xml
+2018-11-14 16:11:33.377 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema Reading Solr Schema from C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\conf\schema.xml
+2018-11-14 16:11:33.415 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema [SpanishCore] Schema name=jate
+2018-11-14 16:11:33.419 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema [EnglishCore] Schema name=jate
+2018-11-14 16:11:33.669 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2018-11-14 16:11:33.669 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2018-11-14 16:11:33.669 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.s.IndexSchema unique key field: id
+2018-11-14 16:11:33.794 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema default search field in schema is text
+2018-11-14 16:11:33.795 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema query parser default operator is OR
+2018-11-14 16:11:33.795 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.s.IndexSchema unique key field: id
+2018-11-14 16:11:35.004 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\conf'
+2018-11-14 16:11:35.006 INFO  (coreLoadExecutor-6-thread-2) [   ] o.a.s.c.CoreContainer Creating SolrCore 'SpanishCore' using configuration from instancedir C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\
+2018-11-14 16:11:35.011 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2018-11-14 16:11:35.035 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore [[SpanishCore] ] Opening new SolrCore at [C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\], dataDir=[null]
+2018-11-14 16:11:35.037 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2018-11-14 16:11:35.040 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore [[SpanishCore] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2018-11-14 16:11:35.041 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore [[SpanishCore] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2018-11-14 16:11:35.055 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data
+2018-11-14 16:11:35.056 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index/
+2018-11-14 16:11:35.059 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index
+2018-11-14 16:11:35.076 INFO  (OldIndexDirectoryCleanupThreadForCore-SpanishCore) [   x:SpanishCore] o.a.s.c.SolrCore Looking for old index directories to cleanup for core SpanishCore in C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\
+2018-11-14 16:11:35.078 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2018-11-14 16:11:35.082 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-11-14 16:11:35.187 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "langid"
+2018-11-14 16:11:35.203 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "langid"
+2018-11-14 16:11:35.204 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2018-11-14 16:11:35.248 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-14 16:11:35.251 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-14 16:11:35.252 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-14 16:11:35.253 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-14 16:11:35.279 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2018-11-14 16:11:35.279 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2018-11-14 16:11:35.281 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2018-11-14 16:11:35.288 WARN  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.admin.AdminHandlers]. Please consult documentation how to replace it accordingly.
+2018-11-14 16:11:35.292 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2018-11-14 16:11:35.292 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2018-11-14 16:11:35.292 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2018-11-14 16:11:35.306 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2018-11-14 16:11:35.307 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin,/admin/ping,/cvalue,/update,/termRecogniser,/ttfidf,/admin/file,/debug/dump,/terms,/update/extract
+2018-11-14 16:11:35.312 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2018-11-14 16:11:35.339 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-11-14 16:11:35.339 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-11-14 16:11:35.378 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2018-11-14 16:11:35.378 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2018-11-14 16:11:35.474 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+2018-11-14 16:11:35.474 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 4
+2018-11-14 16:11:35.661 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@1fe37596[SpanishCore] main
+2018-11-14 16:11:35.672 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\conf
+2018-11-14 16:11:35.672 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\conf}
+2018-11-14 16:11:35.689 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\conf
+2018-11-14 16:11:35.690 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2018-11-14 16:11:35.696 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-11-14 16:11:35.711 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-11-14 16:11:35.731 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2018-11-14 16:11:35.740 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\conf\elevate.xml
+2018-11-14 16:11:35.802 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-11-14 16:11:35.803 WARN  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.h.a.AdminHandlers <requestHandler name="/admin/" 
+ class="solr.admin.AdminHandlers" /> is deprecated . It is not required anymore
+2018-11-14 16:11:35.804 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@1fe37596[SpanishCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(5.3.0):C4)))}
+2018-11-14 16:11:35.823 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2018-11-14 16:11:35.830 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2018-11-14 16:11:35.844 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.u.VersionInfo Found MAX value 1617036524205899777 from Terms for _version_ in index
+2018-11-14 16:11:35.849 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.u.UpdateLog Took 19 ms to seed version buckets with highest version 1617036524205899777
+2018-11-14 16:11:35.850 INFO  (coreLoadExecutor-6-thread-2) [   x:SpanishCore] o.a.s.c.CoreContainer registering core: SpanishCore
+2018-11-14 16:11:35.868 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=61 
+2018-11-14 16:11:35.868 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.c.SolrCore QuerySenderListener done.
+2018-11-14 16:11:35.869 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-11-14 16:11:35.869 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2018-11-14 16:11:35.869 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.c.SolrCore [SpanishCore] Registered new searcher Searcher@1fe37596[SpanishCore] main{ExitableDirectoryReader(UninvertingDirectoryReader(Uninverting(_2(5.3.0):C4)))}
+2018-11-14 16:11:37.105 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.ConfigSetProperties Did not find ConfigSet properties, assuming default properties: Can't find resource 'configsetprops.json' in classpath or 'C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\conf'
+2018-11-14 16:11:37.105 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.CoreContainer Creating SolrCore 'EnglishCore' using configuration from instancedir C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\
+2018-11-14 16:11:37.106 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore solr.NRTCachingDirectoryFactory
+2018-11-14 16:11:37.107 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore [[EnglishCore] ] Opening new SolrCore at [C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\], dataDir=[null]
+2018-11-14 16:11:37.107 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.JmxMonitoredMap No JMX servers found, not exposing Solr information with JMX.
+2018-11-14 16:11:37.108 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore [[EnglishCore] ] Added SolrEventListener for newSearcher: [org.apache.solr.core.QuerySenderListener{queries=[]}]
+2018-11-14 16:11:37.108 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore [[EnglishCore] ] Added SolrEventListener for firstSearcher: [org.apache.solr.core.QuerySenderListener{queries=[{q=static firstSearcher warming in solrconfig.xml}]}]
+2018-11-14 16:11:37.109 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\data
+2018-11-14 16:11:37.110 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore New index directory detected: old=null new=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\data\index/
+2018-11-14 16:11:37.113 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.CachingDirectoryFactory return new directory for C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\data\index
+2018-11-14 16:11:37.115 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.PluginBag queryResponseWriter : 'velocity' created with startup=lazy 
+2018-11-14 16:11:37.115 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.r.XSLTResponseWriter xsltCacheLifetimeSeconds=5
+2018-11-14 16:11:37.116 INFO  (OldIndexDirectoryCleanupThreadForCore-EnglishCore) [   x:EnglishCore] o.a.s.c.SolrCore Looking for old index directories to cleanup for core EnglishCore in C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\data\
+2018-11-14 16:11:37.118 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.p.UpdateRequestProcessorChain creating updateRequestProcessorChain "langid"
+2018-11-14 16:11:37.121 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.p.UpdateRequestProcessorChain inserting DistributedUpdateProcessorFactory into updateRequestProcessorChain "langid"
+2018-11-14 16:11:37.122 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore no updateRequestProcessorChain defined as default, creating implicit default
+2018-11-14 16:11:37.123 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-14 16:11:37.124 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-14 16:11:37.125 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-14 16:11:37.125 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.l.XMLLoader xsltCacheLifetimeSeconds=60
+2018-11-14 16:11:37.127 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.PluginBag requestHandler : '/update/extract' created with startup=lazy 
+2018-11-14 16:11:37.128 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.PluginBag requestHandler : '/analysis/field' created with startup=lazy 
+2018-11-14 16:11:37.128 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.PluginBag requestHandler : '/analysis/document' created with startup=lazy 
+2018-11-14 16:11:37.128 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.PluginBag requestHandler : '/spell' created with startup=lazy 
+2018-11-14 16:11:37.128 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.PluginBag requestHandler : '/tvrh' created with startup=lazy 
+2018-11-14 16:11:37.128 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.PluginBag requestHandler : '/terms' created with startup=lazy 
+2018-11-14 16:11:37.136 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.PluginBag requestHandler : '/elevate' created with startup=lazy 
+2018-11-14 16:11:37.136 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.RequestHandlers Registered paths: /admin/mbeans,/browse,/update/json/docs,/admin/luke,/export,/get,/admin/properties,/elevate,/update/json,/admin/threads,/query,/analysis/field,/analysis/document,/spell,/update/csv,/tvrh,/select,/admin/segments,/admin/system,/replication,/config,/schema,/admin/plugins,/admin/logging,/admin,/admin/ping,/cvalue,/update,/termRecogniser,/ttfidf,/admin/file,/debug/dump,/terms,/update/extract
+2018-11-14 16:11:37.139 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore Using default statsCache cache: org.apache.solr.search.stats.LocalStatsCache
+2018-11-14 16:11:37.139 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.UpdateHandler Using UpdateLog implementation: org.apache.solr.update.UpdateLog
+2018-11-14 16:11:37.140 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.UpdateLog Initializing UpdateLog: dataDir= defaultSyncLevel=FLUSH numRecordsToKeep=100 maxNumLogsToKeep=10 numVersionBuckets=65536
+2018-11-14 16:11:37.142 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore Hard AutoCommit: if uncommited for 15000ms; 
+2018-11-14 16:11:37.142 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore Soft AutoCommit: disabled
+2018-11-14 16:11:37.145 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onInit: commits: num=1
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_1,generation=1}
+2018-11-14 16:11:37.145 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.SolrCore newest commit generation = 1
+2018-11-14 16:11:37.146 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@22b6d364[EnglishCore] main
+2018-11-14 16:11:37.147 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.r.ManagedResourceStorage File-based storage initialized to use dir: C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\conf
+2018-11-14 16:11:37.147 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.r.RestManager Initializing RestManager with initArgs: {storageDir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\conf}
+2018-11-14 16:11:37.147 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.r.ManagedResourceStorage Reading _rest_managed.json using file:dir=C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\conf
+2018-11-14 16:11:37.148 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.r.RestManager Initializing 0 registered ManagedResources
+2018-11-14 16:11:37.148 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.c.SpellCheckComponent Initializing spell checkers
+2018-11-14 16:11:37.148 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.s.DirectSolrSpellChecker init: {name=default,field=text,classname=solr.DirectSolrSpellChecker,distanceMeasure=internal,accuracy=0.5,maxEdits=2,minPrefix=1,maxInspections=5,minQueryLength=4,maxQueryFrequency=0.01}
+2018-11-14 16:11:37.148 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.c.SpellCheckComponent No queryConverter defined, using default converter
+2018-11-14 16:11:37.149 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.c.QueryElevationComponent Loading QueryElevation from: C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\EnglishCore\conf\elevate.xml
+2018-11-14 16:11:37.154 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.ReplicationHandler Commits will be reserved for  10000
+2018-11-14 16:11:37.155 WARN  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.h.a.AdminHandlers <requestHandler name="/admin/" 
+ class="solr.admin.AdminHandlers" /> is deprecated . It is not required anymore
+2018-11-14 16:11:37.156 INFO  (searcherExecutor-12-thread-1-processing-x:EnglishCore) [   x:EnglishCore] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@22b6d364[EnglishCore] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-11-14 16:11:37.158 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.UpdateLog Looking up max value of version field to seed version buckets
+2018-11-14 16:11:37.158 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.VersionInfo Refreshing highest value of _version_ for 65536 version buckets from index
+2018-11-14 16:11:37.159 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.VersionInfo No terms found for _version_, cannot seed version bucket highest value from index
+2018-11-14 16:11:37.159 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.UpdateLog Could not find max version in index or recent updates, using new clock 1617126382275395584
+2018-11-14 16:11:37.162 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.u.UpdateLog Took 4 ms to seed version buckets with highest version 1617126382275395584
+2018-11-14 16:11:37.164 INFO  (coreLoadExecutor-6-thread-1) [   x:EnglishCore] o.a.s.c.CoreContainer registering core: EnglishCore
+2018-11-14 16:11:37.165 INFO  (searcherExecutor-12-thread-1-processing-x:EnglishCore) [   x:EnglishCore] o.a.s.c.S.Request [EnglishCore] webapp=null path=null params={q=static+firstSearcher+warming+in+solrconfig.xml&distrib=false&event=firstSearcher} hits=0 status=0 QTime=6 
+2018-11-14 16:11:37.165 INFO  (searcherExecutor-12-thread-1-processing-x:EnglishCore) [   x:EnglishCore] o.a.s.c.SolrCore QuerySenderListener done.
+2018-11-14 16:11:37.165 INFO  (searcherExecutor-12-thread-1-processing-x:EnglishCore) [   x:EnglishCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: default
+2018-11-14 16:11:37.165 INFO  (searcherExecutor-12-thread-1-processing-x:EnglishCore) [   x:EnglishCore] o.a.s.h.c.SpellCheckComponent Loading spell index for spellchecker: wordbreak
+2018-11-14 16:11:37.165 INFO  (searcherExecutor-12-thread-1-processing-x:EnglishCore) [   x:EnglishCore] o.a.s.c.SolrCore [EnglishCore] Registered new searcher Searcher@22b6d364[EnglishCore] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-11-14 16:11:41.427 INFO  (qtp1013423070-15) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@523d4afb[SpanishCore] realtime
+2018-11-14 16:11:41.503 INFO  (qtp1013423070-15) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {deleteByQuery=*:* (-1617126386722406400)} 0 128
+2018-11-14 16:11:41.521 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=true,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:11:41.530 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_4,generation=4}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+2018-11-14 16:11:41.530 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 5
+2018-11-14 16:11:41.532 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@11a8d869[SpanishCore] main
+2018-11-14 16:11:41.534 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:11:41.534 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.c.SolrCore QuerySenderListener sending requests to Searcher@11a8d869[SpanishCore] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-11-14 16:11:41.534 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.c.SolrCore QuerySenderListener done.
+2018-11-14 16:11:41.534 INFO  (searcherExecutor-7-thread-1-processing-x:SpanishCore) [   x:SpanishCore] o.a.s.c.SolrCore [SpanishCore] Registered new searcher Searcher@11a8d869[SpanishCore] main{ExitableDirectoryReader(UninvertingDirectoryReader())}
+2018-11-14 16:11:41.541 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={waitSearcher=true&commit=true&softCommit=false&wt=javabin&version=2} {commit=} 0 21
+2018-11-14 16:11:49.496 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Comercio Convenio del Metal Madrid Revisión.txt (1617126393973309440)]} 0 1190
+2018-11-14 16:11:50.337 INFO  (qtp1013423070-22) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio  Oficinas y Despachos Madrid Ampliación de vigencia.txt (1617126395233697792)]} 0 822
+2018-11-14 16:12:02.845 INFO  (qtp1013423070-22) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Ambulancias Andalucía.txt (1617126396137570304)]} 0 12472
+2018-11-14 16:12:04.497 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:12:19.528 INFO  (qtp1013423070-22) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio aparcamientos Andalucía.txt (1617126409230090240)]} 0 16668
+2018-11-14 16:12:20.015 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_5,generation=5}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+2018-11-14 16:12:20.016 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 6
+2018-11-14 16:12:27.105 INFO  (qtp1013423070-22) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Comercio del Metal Madrid.txt (1617126426737115136)]} 0 7546
+2018-11-14 16:12:27.208 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@5540cf0b[SpanishCore] realtime
+2018-11-14 16:12:27.208 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:12:34.529 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:12:35.599 INFO  (qtp1013423070-22) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1542211955577} status=0 QTime=9 
+2018-11-14 16:12:35.638 INFO  (qtp1013423070-15) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1542211955629} status=0 QTime=0 
+2018-11-14 16:12:37.430 INFO  (qtp1013423070-20) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1542211957386} status=0 QTime=1 
+2018-11-14 16:12:37.433 INFO  (qtp1013423070-20) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1542211957388} status=0 QTime=0 
+2018-11-14 16:12:37.487 INFO  (qtp1013423070-22) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1542211957457} status=0 QTime=1 
+2018-11-14 16:12:37.504 INFO  (qtp1013423070-15) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/replication params={wt=json&command=details&_=1542211957480} status=0 QTime=8 
+2018-11-14 16:12:37.506 INFO  (qtp1013423070-20) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/system params={wt=json&_=1542211957499} status=0 QTime=0 
+2018-11-14 16:12:37.518 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1542211957508} status=0 QTime=0 
+2018-11-14 16:12:37.524 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1542211957513} status=503 QTime=2 
+2018-11-14 16:12:41.924 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Comercio del Mueble Madrid.txt (1617126434658058240)]} 0 14810
+2018-11-14 16:12:42.167 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_6,generation=6}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+2018-11-14 16:12:42.167 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 7
+2018-11-14 16:12:42.315 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio de Oficinas y Despachos Madrid Revisión.txt (1617126450196905984)]} 0 381
+2018-11-14 16:12:42.361 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@24bbb3f[SpanishCore] realtime
+2018-11-14 16:12:42.363 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:12:52.377 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542211972365} hits=0 status=0 QTime=0 
+2018-11-14 16:12:54.269 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Empresa ABC.txt (1617126450622627840)]} 0 11943
+2018-11-14 16:12:56.925 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:12:58.954 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Empresa Andalucía.txt (1617126463160451072)]} 0 4658
+2018-11-14 16:12:59.278 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_7,generation=7}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8}
+2018-11-14 16:12:59.278 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 8
+2018-11-14 16:13:28.173 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio empresa de madrid.txt (1617126468054155264)]} 0 29210
+2018-11-14 16:13:28.435 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@1d3c99df[SpanishCore] realtime
+2018-11-14 16:13:28.436 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:13:28.436 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:14:11.430 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Empresa Heineken.txt (1617126498695643136)]} 0 43245
+2018-11-14 16:14:11.822 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_8,generation=8}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+2018-11-14 16:14:11.822 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 9
+2018-11-14 16:14:47.168 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542212087159} hits=0 status=0 QTime=2 
+2018-11-14 16:14:59.353 INFO  (qtp1013423070-20) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Empresa Málaga.txt (1617126544052846592)]} 0 47915
+2018-11-14 16:14:59.479 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@5ca155b5[SpanishCore] realtime
+2018-11-14 16:14:59.480 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:14:59.480 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:14:59.545 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_9,generation=9}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+2018-11-14 16:14:59.545 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 10
+2018-11-14 16:14:59.549 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@19ebaea6[SpanishCore] realtime
+2018-11-14 16:14:59.549 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:15:20.560 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Comercio Convenio del Metal Madrid Revisión.txt (1617126616293441536)]} 0 226
+2018-11-14 16:15:20.838 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio  Oficinas y Despachos Madrid Ampliación de vigencia.txt (1617126616541954048)]} 0 265
+2018-11-14 16:15:31.669 INFO  (qtp1013423070-21) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Ambulancias Andalucía.txt (1617126616838701056)]} 0 10814
+2018-11-14 16:15:35.559 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:15:47.630 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio aparcamientos Andalucía.txt (1617126628187439104)]} 0 15952
+2018-11-14 16:15:47.894 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_a,generation=10}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+2018-11-14 16:15:47.894 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 11
+2018-11-14 16:15:55.421 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@536c613e[SpanishCore] realtime
+2018-11-14 16:15:55.427 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Comercio del Metal Madrid.txt (1617126644922712064)]} 0 7789
+2018-11-14 16:15:55.450 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:16:02.631 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:16:07.452 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Comercio del Mueble Madrid.txt (1617126653107896320)]} 0 12014
+2018-11-14 16:16:07.615 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_b,generation=11}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12}
+2018-11-14 16:16:07.616 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 12
+2018-11-14 16:16:07.657 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio de Oficinas y Despachos Madrid Revisión.txt (1617126665702342656)]} 0 201
+2018-11-14 16:16:07.681 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@2f93aea8[SpanishCore] realtime
+2018-11-14 16:16:07.692 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:16:19.053 INFO  (qtp1013423070-20) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Empresa ABC.txt (1617126665924640768)]} 0 11387
+2018-11-14 16:16:22.454 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:16:23.647 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Empresa Andalucía.txt (1617126677868969984)]} 0 4588
+2018-11-14 16:16:23.872 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_c,generation=12}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_d,generation=13}
+2018-11-14 16:16:23.872 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 13
+2018-11-14 16:16:49.892 INFO  (qtp1013423070-20) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio empresa de madrid.txt (1617126682689273856)]} 0 26239
+2018-11-14 16:16:50.039 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@5d3abc57[SpanishCore] realtime
+2018-11-14 16:16:50.046 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:16:50.046 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:17:25.955 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Empresa Heineken.txt (1617126710214393856)]} 0 36053
+2018-11-14 16:17:26.196 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_d,generation=13}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14}
+2018-11-14 16:17:26.196 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 14
+2018-11-14 16:18:13.507 INFO  (qtp1013423070-21) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Empresa Málaga.txt (1617126748026044416)]} 0 47543
+2018-11-14 16:18:13.635 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@2e059f83[SpanishCore] realtime
+2018-11-14 16:18:13.644 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:18:13.644 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:18:21.828 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Mensajería Estatal.txt (1617126797883736064)]} 0 8315
+2018-11-14 16:18:21.962 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_e,generation=14}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_f,generation=15}
+2018-11-14 16:18:21.962 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 15
+2018-11-14 16:19:05.838 INFO  (qtp1013423070-17) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Metal Asturias.txt (1617126806615228416)]} 0 43999
+2018-11-14 16:19:05.966 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.s.SolrIndexSearcher Opening Searcher@75bca69e[SpanishCore] realtime
+2018-11-14 16:19:05.967 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler end_commit_flush
+2018-11-14 16:19:05.967 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.u.UpdateHandler start commit{,optimize=false,openSearcher=false,waitSearcher=true,expungeDeletes=false,softCommit=false,prepareCommit=false}
+2018-11-14 16:19:14.025 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {add=[Convenio Oficinas y Despachos Madrid.txt (1617126852758863872)]} 0 8180
+2018-11-14 16:19:14.179 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore SolrDeletionPolicy.onCommit: commits: num=2
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_f,generation=15}
+	commit{dir=NRTCachingDirectory(MMapDirectory@C:\Users\Pablo\Documents\GitHub\terminology-extractor\solr-5.3.0\server\solr\SpanishCore\data\index lockFactory=org.apache.lucene.store.SimpleFSLockFactory@4e3cdade; maxCacheMB=48.0 maxMergeSizeMB=4.0),segFN=segments_g,generation=16}
+2018-11-14 16:19:14.179 INFO  (commitScheduler-10-thread-1) [   x:SpanishCore] o.a.s.c.SolrCore newest commit generation = 16
+2018-11-14 16:22:18.777 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542212538755} hits=0 status=0 QTime=2 
+2018-11-14 16:22:22.568 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1542212542546} status=0 QTime=1 
+2018-11-14 16:22:22.578 INFO  (qtp1013423070-21) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/system params={wt=json&_=1542212542557} status=0 QTime=7 
+2018-11-14 16:22:22.595 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/replication params={wt=json&command=details&_=1542212542554} status=0 QTime=26 
+2018-11-14 16:22:22.614 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1542212542559} status=0 QTime=1 
+2018-11-14 16:22:22.627 INFO  (qtp1013423070-17) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1542212542620} status=503 QTime=0 
+2018-11-14 16:22:23.272 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1542212543257} status=0 QTime=5 
+2018-11-14 16:22:25.516 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1542212545495} status=0 QTime=1 
+2018-11-14 16:22:25.526 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/system params={wt=json&_=1542212545503} status=0 QTime=0 
+2018-11-14 16:22:25.529 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1542212545505} status=0 QTime=1 
+2018-11-14 16:22:25.549 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/replication params={wt=json&command=details&_=1542212545501} status=0 QTime=24 
+2018-11-14 16:22:25.560 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1542212545507} status=503 QTime=0 
+2018-11-14 16:22:33.373 INFO  (qtp1013423070-21) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/mbeans params={cat=QUERYHANDLER&wt=json&_=1542212553349} status=0 QTime=0 
+2018-11-14 16:22:38.577 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542212558560} hits=0 status=0 QTime=0 
+2018-11-14 16:28:15.307 INFO  (qtp1013423070-21) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542212895262} hits=0 status=0 QTime=0 
+2018-11-14 16:34:07.953 INFO  (qtp1013423070-21) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {} 0 807
+2018-11-14 16:34:07.959 ERROR (qtp1013423070-21) [   x:SpanishCore] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Exception writing document id Comercio Convenio del Metal Madrid Revisión.txt to the index; possible analysis error.
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:167)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:955)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1110)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:101)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:179)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readIterator(JavaBinUpdateRequestCodec.java:135)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:249)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readNamedList(JavaBinUpdateRequestCodec.java:121)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:214)
+	at org.apache.solr.common.util.JavaBinCodec.unmarshal(JavaBinCodec.java:134)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec.unmarshal(JavaBinUpdateRequestCodec.java:186)
+	at org.apache.solr.handler.loader.JavabinLoader.parseAndLoadDocs(JavabinLoader.java:111)
+	at org.apache.solr.handler.loader.JavabinLoader.load(JavabinLoader.java:58)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+	at opennlp.tools.util.Cache.put(Cache.java:134)
+	at opennlp.tools.postag.DefaultPOSContextGenerator.getContext(DefaultPOSContextGenerator.java:195)
+	at opennlp.tools.postag.DefaultPOSContextGenerator.getContext(DefaultPOSContextGenerator.java:87)
+	at opennlp.tools.postag.DefaultPOSContextGenerator.getContext(DefaultPOSContextGenerator.java:32)
+	at opennlp.tools.ml.BeamSearch.bestSequences(BeamSearch.java:102)
+	at opennlp.tools.ml.BeamSearch.bestSequences(BeamSearch.java:168)
+	at opennlp.tools.ml.BeamSearch.bestSequence(BeamSearch.java:173)
+	at opennlp.tools.postag.POSTaggerME.tag(POSTaggerME.java:194)
+	at opennlp.tools.postag.POSTaggerME.tag(POSTaggerME.java:190)
+	at uk.ac.shef.dcs.jate.nlp.opennlp.POSTaggerOpenNLP.tag(POSTaggerOpenNLP.java:23)
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFilter.assignPOS(OpenNLPPOSTaggerFilter.java:103)
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFilter.createTags(OpenNLPPOSTaggerFilter.java:97)
+	at org.apache.lucene.analysis.jate.OpenNLPPOSTaggerFilter.incrementToken(OpenNLPPOSTaggerFilter.java:51)
+	at org.apache.lucene.analysis.jate.ComplexShingleFilter.getNextToken(ComplexShingleFilter.java:335)
+	at org.apache.lucene.analysis.jate.ComplexShingleFilter.shiftInputWindow(ComplexShingleFilter.java:412)
+	at org.apache.lucene.analysis.jate.ComplexShingleFilter.incrementToken(ComplexShingleFilter.java:175)
+	at org.apache.lucene.analysis.core.LowerCaseFilter.incrementToken(LowerCaseFilter.java:45)
+	at org.apache.lucene.analysis.util.FilteringTokenFilter.incrementToken(FilteringTokenFilter.java:51)
+	at org.apache.lucene.index.DefaultIndexingChain$PerField.invert(DefaultIndexingChain.java:613)
+	at org.apache.lucene.index.DefaultIndexingChain.processField(DefaultIndexingChain.java:344)
+	at org.apache.lucene.index.DefaultIndexingChain.processDocument(DefaultIndexingChain.java:300)
+	at org.apache.lucene.index.DocumentsWriterPerThread.updateDocument(DocumentsWriterPerThread.java:234)
+	at org.apache.lucene.index.DocumentsWriter.updateDocument(DocumentsWriter.java:450)
+	at org.apache.lucene.index.IndexWriter.updateDocument(IndexWriter.java:1475)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc0(DirectUpdateHandler2.java:239)
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:163)
+	... 44 more
+
+2018-11-14 16:34:12.253 INFO  (qtp1013423070-21) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213252213} hits=0 status=0 QTime=1 
+2018-11-14 16:34:14.232 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213254224} hits=0 status=0 QTime=0 
+2018-11-14 16:34:16.289 INFO  (qtp1013423070-17) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213256283} hits=0 status=0 QTime=0 
+2018-11-14 16:34:16.696 INFO  (qtp1013423070-21) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213256685} hits=0 status=0 QTime=1 
+2018-11-14 16:34:16.811 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213256805} hits=0 status=0 QTime=0 
+2018-11-14 16:34:16.980 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213256968} hits=0 status=0 QTime=1 
+2018-11-14 16:34:17.297 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213257105} hits=0 status=0 QTime=0 
+2018-11-14 16:34:17.301 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213257285} hits=0 status=0 QTime=0 
+2018-11-14 16:34:20.248 INFO  (qtp1013423070-21) [   x:EnglishCore] o.a.s.c.S.Request [EnglishCore] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1542213260234} status=0 QTime=0 
+2018-11-14 16:34:20.294 INFO  (qtp1013423070-40) [   x:EnglishCore] o.a.s.c.S.Request [EnglishCore] webapp=/solr path=/replication params={wt=json&command=details&_=1542213260246} status=0 QTime=6 
+2018-11-14 16:34:20.297 INFO  (qtp1013423070-19) [   x:EnglishCore] o.a.s.c.S.Request [EnglishCore] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1542213260279} status=503 QTime=1 
+2018-11-14 16:34:20.303 INFO  (qtp1013423070-18) [   x:EnglishCore] o.a.s.c.S.Request [EnglishCore] webapp=/solr path=/admin/system params={wt=json&_=1542213260271} status=0 QTime=14 
+2018-11-14 16:34:20.304 INFO  (qtp1013423070-39) [   x:EnglishCore] o.a.s.c.S.Request [EnglishCore] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1542213260275} status=0 QTime=11 
+2018-11-14 16:34:24.493 INFO  (qtp1013423070-21) [   x:EnglishCore] o.a.s.c.S.Request [EnglishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213264483} hits=0 status=0 QTime=0 
+2018-11-14 16:34:48.855 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1542213288827} status=0 QTime=0 
+2018-11-14 16:34:48.861 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1542213288839} status=0 QTime=1 
+2018-11-14 16:34:48.865 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/system params={wt=json&_=1542213288835} status=0 QTime=6 
+2018-11-14 16:34:48.876 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1542213288840} status=503 QTime=0 
+2018-11-14 16:34:48.885 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/replication params={wt=json&command=details&_=1542213288832} status=0 QTime=27 
+2018-11-14 16:34:53.798 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/select params={q=*:*&indent=true&wt=json&_=1542213293789} hits=0 status=0 QTime=0 
+2018-11-14 16:35:00.240 INFO  (qtp1013423070-18) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/cores params={indexInfo=false&wt=json&_=1542213300234} status=0 QTime=0 
+2018-11-14 16:35:00.336 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/system params={wt=json&_=1542213300293} status=0 QTime=0 
+2018-11-14 16:35:03.884 INFO  (qtp1013423070-21) [   ] o.a.s.s.SolrDispatchFilter [admin] webapp=null path=/admin/info/logging params={wt=json&since=0&_=1542213303877} status=0 QTime=2 
+2018-11-14 16:35:11.679 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.menu-top.html&contentType=text/html;charset%3Dutf-8&_=1542213311649} status=0 QTime=2 
+2018-11-14 16:35:11.683 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.menu-bottom.html&contentType=text/html;charset%3Dutf-8&_=1542213311649} status=0 QTime=0 
+2018-11-14 16:35:11.753 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/luke params={show=index&numTerms=0&wt=json&_=1542213311699} status=0 QTime=0 
+2018-11-14 16:35:11.761 INFO  (qtp1013423070-19) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/system params={wt=json&_=1542213311727} status=0 QTime=2 
+2018-11-14 16:35:11.764 INFO  (qtp1013423070-17) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/file params={file=admin-extra.html&_=1542213311730} status=0 QTime=0 
+2018-11-14 16:35:11.768 INFO  (qtp1013423070-40) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/replication params={wt=json&command=details&_=1542213311725} status=0 QTime=13 
+2018-11-14 16:35:11.778 INFO  (qtp1013423070-39) [   x:SpanishCore] o.a.s.c.S.Request [SpanishCore] webapp=/solr path=/admin/ping params={action=status&wt=json&_=1542213311768} status=503 QTime=0 
+2018-11-14 16:35:26.052 INFO  (qtp1013423070-18) [   x:SpanishCore] o.a.s.u.p.LogUpdateProcessor [SpanishCore] webapp=/solr path=/update params={wt=javabin&version=2} {} 0 601
+2018-11-14 16:35:26.053 ERROR (qtp1013423070-18) [   x:SpanishCore] o.a.s.c.SolrCore org.apache.solr.common.SolrException: Exception writing document id Comercio Convenio del Metal Madrid Revisión.txt to the index; possible analysis error.
+	at org.apache.solr.update.DirectUpdateHandler2.addDoc(DirectUpdateHandler2.java:167)
+	at org.apache.solr.update.processor.RunUpdateProcessor.processAdd(RunUpdateProcessorFactory.java:69)
+	at org.apache.solr.update.processor.UpdateRequestProcessor.processAdd(UpdateRequestProcessor.java:51)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.doLocalAdd(DistributedUpdateProcessor.java:955)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.versionAdd(DistributedUpdateProcessor.java:1110)
+	at org.apache.solr.update.processor.DistributedUpdateProcessor.processAdd(DistributedUpdateProcessor.java:706)
+	at org.apache.solr.update.processor.LogUpdateProcessor.processAdd(LogUpdateProcessorFactory.java:104)
+	at org.apache.solr.handler.loader.JavabinLoader$1.update(JavabinLoader.java:101)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readOuterMostDocIterator(JavaBinUpdateRequestCodec.java:179)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readIterator(JavaBinUpdateRequestCodec.java:135)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:249)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec$1.readNamedList(JavaBinUpdateRequestCodec.java:121)
+	at org.apache.solr.common.util.JavaBinCodec.readVal(JavaBinCodec.java:214)
+	at org.apache.solr.common.util.JavaBinCodec.unmarshal(JavaBinCodec.java:134)
+	at org.apache.solr.client.solrj.request.JavaBinUpdateRequestCodec.unmarshal(JavaBinUpdateRequestCodec.java:186)
+	at org.apache.solr.handler.loader.JavabinLoader.parseAndLoadDocs(JavabinLoader.java:111)
+	at org.apache.solr.handler.loader.JavabinLoader.load(JavabinLoader.java:58)
+	at org.apache.solr.handler.UpdateRequestHandler$1.load(UpdateRequestHandler.java:98)
+	at org.apache.solr.handler.ContentStreamHandlerBase.handleRequestBody(ContentStreamHandlerBase.java:74)
+	at org.apache.solr.handler.RequestHandlerBase.handleRequest(RequestHandlerBase.java:143)
+	at org.apache.solr.core.SolrCore.execute(SolrCore.java:2068)
+	at org.apache.solr.servlet.HttpSolrCall.execute(HttpSolrCall.java:669)
+	at org.apache.solr.servlet.HttpSolrCall.call(HttpSolrCall.java:462)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:210)
+	at org.apache.solr.servlet.SolrDispatchFilter.doFilter(SolrDispatchFilter.java:179)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1652)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:585)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:577)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:223)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1127)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:515)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:185)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1061)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:215)
+	at org.eclipse.jetty.server.handler.HandlerCollection.handle(HandlerCollection.java:110)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:97)
+	at org.eclipse.jetty.server.Server.handle(Server.java:499)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:310)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:257)
+	at org.eclipse.jetty.io.AbstractConnection$2.run(AbstractConnection.java:540)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:635)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:555)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.lang.NullPointerException
+
