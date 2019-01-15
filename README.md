@@ -35,7 +35,7 @@ To start Solr server use:
 
 To add files stored in Corpus folder and add them to the Solr SpanishCore 
 
-> java -cp target/terminology-extractor-1.0-jar-with-dependencies.jar org.upm.oeg.terminology.extractor.Populator -c Corpus -i SpanishCore
+> java -cp target/terminology-extractor-1.0-jar-with-dependencies.jar org.upm.oeg.terminology.extractor.Populator -c Corpus -i Spanishcore
 
 For commodity, use
 
@@ -46,16 +46,16 @@ For commodity, use
 
 To retrieve a json file with terminology. Cvalue from SpanishCore
 
-> curl -X POST http://localhost:8983/solr/SpanishCore/cvalue
+> curl -X POST http://localhost:8983/solr/Spanishcore/cvalue
 
 
 TTF-IDF from SpanishCore
 
-> curl -X POST http://localhost:8983/solr/SpanishCore/ttfidf
+> curl -X POST http://localhost:8983/solr/Spanishcore/ttfidf
 
 
 Also can be queried from the web interface
->  http://localhost:8983/solr/#/SpanishCore/query
+>  http://localhost:8983/solr/#/Spanishcore/query
 
 and put /cvalue or /ttfidf in the Request-Handler
 

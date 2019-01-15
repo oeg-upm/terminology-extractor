@@ -265,7 +265,7 @@
          More details on the nuances of each LockFactory...
          http://wiki.apache.org/lucene-java/AvailableLockFactories
     -->
-    <lockType>${solr.lock.type:simple}</lockType>
+    <lockType>${solr.lock.type:single}</lockType>
 
     <!-- Unlock On Startup
 
@@ -1644,25 +1644,15 @@
     </arr>
   </requestHandler>
 
-   <requestHandler name="/termRecogniser" class="uk.ac.shef.dcs.jate.solr.TermRecognitionRequestHandler">
-    <lst name="defaults">
-     <str name="algorithm">CValue</str>
-     <bool name="extraction">true</bool>
-	 <bool name="indexTerm">true</bool>
-	 <bool name="boosting">true</bool>
-     <float name="-cf.t">0</float>
-     <str name="-o">../cvalue-terms.json</str>
-     </lst>
-    </requestHandler>
 	
-		<requestHandler name="/cvalue" class="uk.ac.shef.dcs.jate.solr.TermRecognitionRequestHandler">
+	<requestHandler name="/cvalue" class="uk.ac.shef.dcs.jate.solr.TermRecognitionRequestHandler">
     <lst name="defaults">
      <str name="algorithm">CValue</str>
      <bool name="extraction">true</bool>
 	 <bool name="indexTerm">true</bool>
 	 <bool name="boosting">true</bool>
-     <float name="-cf.t">0</float>
-     <str name="-o">../../cvalue-SpanishCore.json</str>
+     <float name="-cf.t">3</float>
+     <str name="-o">../../cvalue-TEDes.json</str>
      </lst>
     </requestHandler>
 
@@ -1672,8 +1662,8 @@
      <bool name="extraction">true</bool>
 	 <bool name="indexTerm">true</bool>
 	 <bool name="boosting">true</bool>
-     <float name="-cf.t">0</float>
-     <str name="-o">../../TTF-IDF-SpanishCore.json</str>
+     <float name="-cf.t">0.0005</float>
+     <str name="-o">../../TTF-IDF-TEDes.json</str>
      </lst>
     </requestHandler>
 
