@@ -48,6 +48,8 @@ To retrieve a json file with terminology. Cvalue from SpanishCore
 
 > curl -X POST http://localhost:8983/solr/Spanishcore/cvalue
 
+> java -cp target/terminology-extractor-1.0-jar-with-dependencies.jar org.upm.oeg.terminology.extractor.Extractor Spanishcore cvalue
+
 
 TTF-IDF from SpanishCore
 
