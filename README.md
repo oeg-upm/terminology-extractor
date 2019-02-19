@@ -5,15 +5,11 @@
 
 ### First Step  (trying to fix):
 
-Clone or download JATE: https://github.com/ziqizhang/jate
+Download JATE release: https://github.com/ziqizhang/jate
 
-Compile
+Version > jate-2.0-beta.1-jar-with-dependencies.jar
 
-> mvn clean
-
-> mvn install
-
-Copy jate/target/jate-2.0-beta.11-jar-with-dependencies.jar to  terminology-extractor/solr-5.3.0/contrib/jate/lib/jate-2.0-beta.11-jar-with-dependencies.jar
+Copy jate/target/jate-2.0-beta.1-jar-with-dependencies.jar to  terminology-extractor/solr-5.3.0/contrib/jate/lib/jate-2.0-beta.1-jar-with-dependencies.jar
 
 
 
